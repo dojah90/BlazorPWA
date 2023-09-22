@@ -1,0 +1,13 @@
+.page[b-515oxnwri9] {
+    height: 100vh;
+    background-color: rgb(19, 19, 19); 
+    color: whitesmoke;
+    padding: 1rem;;
+}
+
+
+.main[b-515oxnwri9] {
+    height: calc(100% - 60px);    
+}
+
+

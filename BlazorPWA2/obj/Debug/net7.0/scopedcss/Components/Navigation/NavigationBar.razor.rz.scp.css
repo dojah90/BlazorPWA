@@ -1,0 +1,23 @@
+.nav-bar[b-ke05u8pdj3] {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(44, 45, 45, .5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nav-bar-icon[b-ke05u8pdj3] {
+    width: 25px;
+    height: 25px;
+    filter: invert(32%) sepia(8%) saturate(848%) hue-rotate(208deg) brightness(90%) contrast(91%);
+}
+
+.nav-bar-icon-selected[b-ke05u8pdj3] {
+    filter: invert(38%) sepia(5%) saturate(3273%) hue-rotate(202deg) brightness(93%) contrast(81%);
+}
