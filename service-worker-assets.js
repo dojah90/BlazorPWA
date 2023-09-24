@@ -93,7 +93,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-km16Lo0CrhjMXVxD2aGAtTIDAlRKx9FV5B7zDYYQptk=",
+      "hash": "sha256-z2UoNzhK0fOOX1o+r67\/88aGJQ6tF36um7W+PgN2I2k=",
       "url": "index.html"
     },
     {
@@ -313,5 +313,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "P4w\/iCGW"
+  "version": "bCuzUgUN"
 };
