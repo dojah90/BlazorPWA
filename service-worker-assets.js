@@ -5,6 +5,10 @@
       "url": "BlazorPWA2.styles.css"
     },
     {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": ".nojekyll.txt"
+    },
+    {
       "hash": "sha256-25BGaxwH85SPE5Aqso0BpDXi+SHJZFol0wspQj8F7jg=",
       "url": "css\/app.css"
     },
@@ -309,5 +313,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "2UlY9Nz\/"
+  "version": "VAkRr9zs"
 };
