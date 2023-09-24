@@ -6,7 +6,7 @@
     },
     {
       "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "url": ".nojekyll.txt"
+      "url": ".nojekyll"
     },
     {
       "hash": "sha256-25BGaxwH85SPE5Aqso0BpDXi+SHJZFol0wspQj8F7jg=",
