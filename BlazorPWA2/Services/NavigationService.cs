@@ -38,7 +38,7 @@ public class NavigationService : INavigationService
         logger.Log(LogLevel.Information, path);
         if(string.IsNullOrEmpty(path) == false){
             currentPath = path;
-            navigationManager.NavigateTo(path);
+            navigationManager.NavigateTo($"{navigationManager.BaseUri}{path}");
 
             Task.Run(() => {
                 foreach(var action in eventCallbacks){

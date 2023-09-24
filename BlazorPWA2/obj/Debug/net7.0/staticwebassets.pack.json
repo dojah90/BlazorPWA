@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets/service-worker.js"
     },
     {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/.nojekyll",
+      "PackagePath": "staticwebassets/.nojekyll"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/404.html",
+      "PackagePath": "staticwebassets/404.html"
+    },
+    {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

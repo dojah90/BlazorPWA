@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o4Xowpjc7VpNMgU1kF/EgRQCjjox6EfS9ovycSX7cVE=",
+  "Hash": "zLxgtbIDNpD6G1ryWU4jXR3vDdvXOaZZJOTp0n6LRq8=",
   "Source": "BlazorPWA2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7070,6 +7070,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/service-worker.published.js"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/.nojekyll",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": ".nojekyll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.nojekyll"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/404.html",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "404.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/404.html"
     },
     {
       "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/css/app.css",
