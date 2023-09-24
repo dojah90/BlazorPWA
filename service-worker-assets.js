@@ -9,6 +9,10 @@
       "url": ".nojekyll"
     },
     {
+      "hash": "sha256-Nvz+jNyKzrF\/jKYAHAbCJwSlLEk014txLP3tmKzBFCA=",
+      "url": "404.html"
+    },
+    {
       "hash": "sha256-25BGaxwH85SPE5Aqso0BpDXi+SHJZFol0wspQj8F7jg=",
       "url": "css\/app.css"
     },
@@ -313,5 +317,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "FUADd+E5"
+  "version": "VQvRkg71"
 };
