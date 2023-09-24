@@ -17,7 +17,11 @@ namespace BlazorPWA2
             IServiceCollection services = builder.Services;
             services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            services.AddLogging();
+            services.AddBlazorBootstrap();
+
             AddServices(services);
+            AddRepositories(services);
 
             await builder.Build().RunAsync();
         }
@@ -25,6 +29,10 @@ namespace BlazorPWA2
         private static void AddServices(IServiceCollection services){
             services.AddScoped<INavigationService, NavigationService>()
             .AddScoped<ILocalStorageService, LocalStorageService>();
+        }
+
+        private static void AddRepositories(IServiceCollection services){
+            services.AddScoped<IContactRepository, ContactRepository>();
         }
     }
 }

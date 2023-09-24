@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "BlazorBootstrap.dll": "sha256-wsHjEz\/36ZDrnQGfMjQ2tIzkpwKl8fnuqSzKqeQDbK8=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-QP+9ib2tHpYrkwMTIkh60aO49DKTGwJBAA5RaITVGDE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-sCo2GmgrMtZQSY+teWT1XlU93C\/x75FDwL155zjC5TI=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-x+mgWzFuhFpGICdKYW5hmKJ3HUUw4GrXhMFi17T4JIM=",
@@ -198,16 +199,16 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13\/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "BlazorPWA2.dll": "sha256-cr1eVs8siHgqHWT5fBGQrsSsbS5tZ4Fhf4B8tll2xF8="
+      "BlazorPWA2.dll": "sha256-MiBrTv8g8aJZiOAej4nAfT6y+eRrQ1W1IWAuJoR\/lRY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorPWA2.pdb": "sha256-VCP6PaJRwjdxRJ0wWGhtcRtzI7v+jJDCv4rl4Yp61Gk="
+      "BlazorPWA2.pdb": "sha256-6OgPeqqOWv79zok0wfS1w0s8GR+PEsFVD7mOhhNIWAM="
     },
     "runtime": {
-      "dotnet.7.0.11.vc674qucis.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
+      "dotnet.7.0.11.hmb3w0sieh.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
       "dotnet.timezones.blat": "sha256-gIJRsMe\/q4cM8EeOn+wrpfipBqBOq0niTDjqSBdXsVI=",
       "dotnet.wasm": "sha256-hm1Mz+MEUcCzB1ptOGcOa7Kdyb4wf5\/XLZCe8VoiqkU=",
       "icudt.dat": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4=",

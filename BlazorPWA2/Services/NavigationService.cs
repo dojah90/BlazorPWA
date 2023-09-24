@@ -6,13 +6,16 @@ namespace BlazorPWA2.Services;
 public class NavigationService : INavigationService
 {
     private readonly NavigationManager navigationManager;
+    private readonly ILogger logger;
 
     private string currentPath = "/";
     private List<Action> eventCallbacks = new();
 
-    public NavigationService(NavigationManager navigationManager)
+    public NavigationService(ILogger<NavigationService> logger, NavigationManager navigationManager)
     {
+        this.logger = logger;
         this.navigationManager = navigationManager;
+        currentPath = GetCurrentPath();
     }
 
     public void RegisterEventCallback(Action callback){
@@ -31,6 +34,8 @@ public class NavigationService : INavigationService
 
     public void NavigateTo(string path)
     {
+        Console.WriteLine("WriteLine " + path);
+        logger.Log(LogLevel.Information, path);
         if(string.IsNullOrEmpty(path) == false){
             currentPath = path;
             navigationManager.NavigateTo(path);
@@ -45,6 +50,6 @@ public class NavigationService : INavigationService
 
     public string GetCurrentPath()
     {
-        return currentPath;
+        return navigationManager.Uri.Remove(0, navigationManager.BaseUri.Length - 1);
     }
 }

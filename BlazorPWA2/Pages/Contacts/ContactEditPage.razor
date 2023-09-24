@@ -1,0 +1,9 @@
+﻿@page "/contacts/edit"
+@using BlazorPWA2.Components.Input
+
+<div>
+    <input type="text" title="Vorname" placeholder="Vorname" @bind="@contact.FirstName" />
+    <input type="text" title="Nachname" placeholder="Nachname" @bind="@contact.LastName" />
+</div>
+
+<button type="button" title="Speichern" @onclick="Save" >Speichern</button>

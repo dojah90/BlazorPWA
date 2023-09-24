@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Blazor.Bootstrap/1.10.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.11"
+        },
+        "compile": {
+          "lib/net6.0/BlazorBootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BlazorBootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazor.Bootstrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.Bootstrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -478,6 +496,24 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Blazor.Bootstrap/1.10.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.11"
+        },
+        "compile": {
+          "lib/net6.0/BlazorBootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BlazorBootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazor.Bootstrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.Bootstrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -949,6 +985,28 @@
     }
   },
   "libraries": {
+    "Blazor.Bootstrap/1.10.2": {
+      "sha512": "ZhlrAkyk//QZok4L+XBJSZIarnIqlZW/FX1q+lINk3TfUMxBMslZaAQ2z3TErBi53+5SrnONSi+J5supcB2mcQ==",
+      "type": "package",
+      "path": "blazor.bootstrap/1.10.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "128X128.png",
+        "README.md",
+        "blazor.bootstrap.1.10.2.nupkg.sha512",
+        "blazor.bootstrap.nuspec",
+        "build/Blazor.Bootstrap.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazor.Bootstrap.props",
+        "buildTransitive/Blazor.Bootstrap.props",
+        "lib/net6.0/BlazorBootstrap.dll",
+        "staticwebassets/Blazor.Bootstrap.bundle.scp.css",
+        "staticwebassets/blazor.bootstrap.css",
+        "staticwebassets/blazor.bootstrap.js",
+        "staticwebassets/icon/128X128.png"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.4": {
       "sha512": "ccVCRKKSclEs88EN61pJkVModWE3e0h/YnLZYBgBoelUZSIbbKuzcJBdnt03G+sGV3fU0oC365C0Zjmd2m8qfA==",
       "type": "package",
@@ -1796,37 +1854,31 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Blazor.Bootstrap >= 1.10.2",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.4",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/dominikjahn/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dom\\source\\repos\\BlazorPWA2\\BlazorPWA2\\BlazorPWA2.csproj",
+      "projectUniqueName": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/BlazorPWA2.csproj",
       "projectName": "BlazorPWA2",
-      "projectPath": "C:\\Users\\Dom\\source\\repos\\BlazorPWA2\\BlazorPWA2\\BlazorPWA2.csproj",
-      "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dom\\source\\repos\\BlazorPWA2\\BlazorPWA2\\obj\\",
+      "projectPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/BlazorPWA2.csproj",
+      "packagesPath": "/Users/dominikjahn/.nuget/packages/",
+      "outputPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dominikjahn/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1845,6 +1897,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Blazor.Bootstrap": {
+            "target": "Package",
+            "version": "[1.10.2, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.4, )"
@@ -1877,7 +1933,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -7,12 +7,14 @@ public partial class NavigationBar
 {
     [Inject]
     private INavigationService navigationService { get; set; }
+    [Inject] ILogger<NavigationBar> logger { get; set; }
     private string currentPath = "/";
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
         navigationService.RegisterEventCallback(OnNavigationEvent);
+        currentPath = navigationService.GetCurrentPath();
     }
 
     private void OnNavigationEvent(){
@@ -22,10 +24,21 @@ public partial class NavigationBar
 
     private string GetCssClass(string path)
     {
+        logger.Log(LogLevel.Information, path);
+        logger.Log(LogLevel.Information, currentPath);
         var result = "nav-bar-icon";
 
-        if(currentPath.Equals(path)){
-            result += " nav-bar-icon-selected";
+        if(path.Equals("/"))
+        {
+            if(currentPath.Equals(path)){
+                result += " nav-bar-icon-selected";
+            }
+        }
+        else
+        {
+            if(currentPath.StartsWith(path)){
+                result += " nav-bar-icon-selected";
+            }
         }
 
         return result;

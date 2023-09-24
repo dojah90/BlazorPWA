@@ -1,0 +1,14 @@
+@page "/contacts"
+@using BlazorPWA2.Model;
+
+<div class="d-flex justify-content-space-between mb-3">
+    <h1>Contacts</h1>
+    <button type="button" class="btn-add btn-symbol" @onclick="AddContact" >&plus;</button>
+</div>
+
+<div class="d-grid gap-2">
+    @foreach(var contact in ContactList)
+    {
+        <BlazorPWA2.Components.Contacts.ContactItem Contact="@contact" OnDelete="(contact) => OnDeleteClicked(contact as Contact)" />
+    }
+</div>

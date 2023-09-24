@@ -6,6 +6,7 @@
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Blazor.Bootstrap" Version="1.10.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
   </ItemGroup>
@@ -13,6 +14,8 @@
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Modal/" />
+    <Folder Include="Modal/Contact/" />
     <Folder Include="wwwroot\scripts\" />
   </ItemGroup>
 </Project>
