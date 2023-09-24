@@ -14,7 +14,7 @@ jobs:
         dotnet-version: 3.1
 
     - name: Publish .NET Core Project
-      run: dotnet publish BlazorPWA2.csproj -c Release -o release --nologo
+      run: dotnet publish BlazorPWA2/BlazorPWA2.csproj -c Release -o release --nologo
 
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
