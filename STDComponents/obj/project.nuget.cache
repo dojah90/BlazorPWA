@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHWujEuCcvcKWNVhPxNCu56lZfph2pApTTxJELkI/P9wQXVzOEaqKRkc3rQ9+NEYD+L8m3ayfn5Lo+thfo8HWA==",
+  "dgSpecHash": "nY7PtnufCC25yYijCTFDzCvhlW38AFkGt/FkmlqVgEfBv4ZvbCisBofNAiCGN7hpCA36W0+6J7mawoaZxSe1mA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
+  "projectFilePath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dom\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.4\\microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
     "C:\\Users\\Dom\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.4\\microsoft.aspnetcore.components.7.0.4.nupkg.sha512",

@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-yOF3VaWiSwkscqFjrY0bkCjdroZVAM9OAnDaDLM9y6k=",
+      "hash": "sha256-qCsns4SKk5evnte9TQqSdHVgWugKjW8BIK8bdrN9fC4=",
       "url": "css\/app.css"
     },
     {
@@ -69,6 +69,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-Qam5KVgZ0emwiWH4kNpLf+gXrfWLc6cpDuHIh0rzklc=",
+      "url": "icons\/back.svg"
+    },
+    {
       "hash": "sha256-LvPu1eah\/B9X7XOEJ16enlvcVKZ10tNOV57yETVhT+Y=",
       "url": "icons\/chat.svg"
     },
@@ -109,7 +113,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-luvpklyzbPDJ5uj2NKRRA3u+EhaAfRqH6Wt6cvmT2xY=",
+      "hash": "sha256-g9xfZA3KQ4p4beD88o4VNH\/j4OPyVabPOsAeHV9MnnA=",
       "url": "BlazorPWA2.styles.css"
     },
     {
@@ -909,19 +913,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-062GGAEvEzYB+o8Ss3vTDSPwBUrnGYS17E64E+VmMnw=",
+      "hash": "sha256-tv2oilaBzn2OotdOsw5EDqVFpw4U4qos7BhIMg5aOF0=",
       "url": "_framework\/STDComponents.dll"
     },
     {
-      "hash": "sha256-jX0ipeoJ6JRRHb9Eehfb4SMMyNkHqcorJgldKVbd4aQ=",
+      "hash": "sha256-8eQ9AP100rDEDHYfoV3gFfggY8h0uGpzXriIRo4zx8Y=",
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-ROgNBebJhUbeFBUbFmsPECKe9CnLI4m0T+VLoOOxlQk=",
+      "hash": "sha256-OnEraJnDlcdc14aRGDMHRu2wDx3Q4WIzttaCBa8rZSE=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-LM9MhSdZ0A5\/rJrMOfT\/Q7EC9xI4BPbIPP7TSzBMYZk=",
+      "hash": "sha256-vYepRBr5ShEZqITm235eMmWUjaf52\/y\/BBlNTHxB4Gc=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -929,7 +933,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-TFa7N2mA3npJWggmjhUDFuNig4N5J1hCvnnJGZcu0mQ=",
+      "hash": "sha256-27DWxuTUy5rqMs0OXAJY6rRlS6yy+yEk3hY8I89XrN8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -949,5 +953,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "Z3yk2np+"
+  "version": "Zl1vzgnA"
 };

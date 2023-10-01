@@ -1,9 +1,13 @@
 ﻿@page "/contacts/edit"
 @using BlazorPWA2.Components.Input
+@using BlazorPWA2.Components.Navigation
 
-<div>
+
+<div class="d-grid grid-container-4 gap-2">
     <input type="text" title="Vorname" placeholder="Vorname" @bind="@contact.FirstName" />
     <input type="text" title="Nachname" placeholder="Nachname" @bind="@contact.LastName" />
+    <input type="text" title="Alias" placeholder="Alias" @bind="@contact.Alias" />
+    <input type="date" title="Geburtstag" placeholder="Geburtstag" @bind="@contact.Birthday" />
 </div>
 
-<button type="button" title="Speichern" @onclick="Save" >Speichern</button>
+<button type="button" class="btn btn-save" title="Speichern" @onclick="Save">Speichern</button>

@@ -1,4 +1,5 @@
 ﻿@page "/"
+@page "/home"
 @using BlazorPWA2.Model;
 @using STDComponents.Basics.Dropdown;
 
@@ -6,78 +7,3 @@
 <div>
     <h1 style="text-align: center;">Highlights</h1>
 </div>
-
-
-<span>test</span>
-
-@foreach(var contact in contacts.ToList())
-{
-    <div class="d-flex justify-content-evenly">
-        <STDDropdown @key="contact" TValue="string" @bind-Value="@contact.FirstName" TModel="Contact" DisplayExpression="x => x.FirstName"
-                     ValuePropertyExpression="x => x.FirstName" Options="@contacts" />
-        <a @onclick="() => Delete(contact)">Delete</a>
-    </div>
-    
-}
-
-<span>_____________________________</span>
-
-@foreach(var contact in contacts)
-{
-    <span>@contact.FirstName</span><br />
-}
-
-
-@code {
-    private string contactName = "empty";
-    private List<Contact> contacts = new();
-    private System.Timers.Timer timer;
-    private List<string> contactNames = new();
-
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-        timer = new System.Timers.Timer(2000);
-        timer.Elapsed += OnTimerElapsed;
-
-        var counter = 1;
-        for(int i = 0; i < 10; i++)
-        {
-            var name = GetRandomString();
-            contacts.Add(new Contact
-            {
-                    FirstName = $"{counter}_{name}"
-            });
-
-            contactNames.Add(name);
-            counter++;
-        }
-
-        timer.Start();
-    }
-
-    private void OnTimerElapsed(object sender, EventArgs e)
-    {
-        Console.WriteLine("OnTimerElapsed enter, contact name = " + contactName);
-        StateHasChanged();
-    }
-
-    private void Delete(Contact contact)
-    {
-        contacts.Remove(contact);
-    }
-
-    private string GetRandomString()
-    {
-        var random = new Random();
-        char[] letters = { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
-        string result = "";
-
-        while(result.Length < 10)
-        {
-            result += letters[random.Next(0, 6)];
-        }
-
-        return result;
-    }
-}

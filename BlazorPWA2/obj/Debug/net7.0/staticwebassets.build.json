@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AKNi5YDeNf3n2nVVj+gTRyq1nHKIobm4hiRI8N0AaLM=",
+  "Hash": "3IHGLX1sRl2lkQ3P21e8xQhxHwdvBcZO+dLz3aFcTlQ=",
   "Source": "BlazorPWA2",
   "BasePath": "/",
   "Mode": "Root",
@@ -11,11 +11,11 @@
       "Version": 2,
       "Source": "STDComponents",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [
@@ -233,23 +233,6 @@
       "OriginalItemSpec": "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "BlazorPWA2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\native\\icudt.dat"
-    },
-    {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "BlazorPWA2",
       "SourceType": "Computed",
@@ -299,6 +282,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7084,40 +7084,6 @@
       "OriginalItemSpec": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorPWA2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\service-worker.js",
-      "SourceId": "BlazorPWA2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerJs",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot\\service-worker.js"
-    },
-    {
-      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
-      "SourceId": "BlazorPWA2",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker.js",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerJs",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\service-worker.published.js"
-    },
-    {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker-assets.js",
       "SourceId": "BlazorPWA2",
       "SourceType": "Computed",
@@ -7150,6 +7116,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net7.0\\service-worker-assets.js.build"
+    },
+    {
+      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\service-worker.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker.js",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerJs",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\service-worker.js"
+    },
+    {
+      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\service-worker.published.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\Debug\\net7.0\\service-worker\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerJs",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\service-worker.published.js"
     },
     {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\.nojekyll",
@@ -7235,6 +7235,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -7339,23 +7356,6 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorPWA2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorPWA2",
       "SourceType": "Discovered",
@@ -7439,6 +7439,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-512.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\icons\\back.svg",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/back.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\back.svg"
     },
     {
       "Identity": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\icons\\chat.svg",

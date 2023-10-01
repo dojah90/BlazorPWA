@@ -1,18 +1,17 @@
-
 <div class="nav-bar blur">
-    <a @onclick="@(() => NavigateTo("/news"))">
+    <a @onclick="@(() => NavigateTo("news"))">
         <img class="@GetCssClass("/news")" src="/icons/news.svg" />
     </a>
-    <a @onclick="@(() => NavigateTo("/chat"))">
+    <a @onclick="@(() => NavigateTo("chat"))">
         <img class="@GetCssClass("/chat")" src="/icons/chat.svg" />
     </a>
-    <a @onclick="@(() => NavigateTo("/"))">
+    <a @onclick="@(() => NavigateTo("home"))">
         <img class="@GetCssClass("/")" src="/icons/home.svg" />
     </a>
-    <a @onclick="@(() => NavigateTo("/contacts"))">
+    <a @onclick="@(() => NavigateTo("contacts"))">
         <img class="@GetCssClass("/contacts")" src="/icons/contacts.svg" />
     </a>
-    <a @onclick="@(() => NavigateTo("/settings"))">
+    <a @onclick="@(() => NavigateTo("settings"))">
         <img class="@GetCssClass("/settings")" src="/icons/settings.svg" />
     </a>
 </div>

@@ -1900,11 +1900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
+      "projectUniqueName": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
       "projectName": "BlazorPWA2",
-      "projectPath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
+      "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
       "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\",
+      "outputPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1926,8 +1926,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
-              "projectPath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj"
+            "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
+              "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj"
             }
           }
         }

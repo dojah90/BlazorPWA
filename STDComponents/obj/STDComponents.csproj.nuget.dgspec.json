@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {}
+    "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
+    "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
+        "projectUniqueName": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
         "projectName": "STDComponents",
-        "projectPath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
+        "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
         "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\obj\\",
+        "outputPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

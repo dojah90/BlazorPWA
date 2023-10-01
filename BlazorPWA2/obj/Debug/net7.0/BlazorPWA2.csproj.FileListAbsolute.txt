@@ -2491,10 +2491,6 @@ C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\+0ZOsCIm.g
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\JHpgzSPl.gz
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\NMblu1pa.gz
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\c9t7+t12.gz
-C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\VIsPEnX4.gz
-C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\HH2RcKeR.gz
-C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\R7dqjby5.gz
-C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\mpfd15oq.gz
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\wMjCfqYb.gz
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\blazor.boot.json
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\staticwebassets\msbuild.BlazorPWA2.Microsoft.AspNetCore.StaticWebAssets.props
@@ -2518,3 +2514,8 @@ C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\BlazorPWA2.dll
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\refint\BlazorPWA2.dll
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\BlazorPWA2.pdb
 C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\ref\BlazorPWA2.dll
+C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\VIsPEnX4.gz
+C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\HH2RcKeR.gz
+C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\R7dqjby5.gz
+C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\build-gz\mpfd15oq.gz
+C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\obj\Debug\net7.0\scopedcss\Components\Navigation\AppBar.razor.rz.scp.css

@@ -1,0 +1,15 @@
+.appbar {
+    width: 100vw;
+    height: 65px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: rgba(44, 45, 45, .3);
+    backdrop-filter: blur(.5rem);
+    -webkit-backdrop-filter: blur(.5em);
+}

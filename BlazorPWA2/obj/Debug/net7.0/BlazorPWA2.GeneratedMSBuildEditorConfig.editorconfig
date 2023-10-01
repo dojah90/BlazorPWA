@@ -9,65 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorPWA2
 build_property.RootNamespace = BlazorPWA2
-build_property.ProjectDir = c:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\
+build_property.ProjectDir = C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Dom\Documents\BlazorPWA\BlazorPWA2
+build_property.MSBuildProjectDirectory = C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/App.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Input/TextInput.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Input/TextInput.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnB1dFxUZXh0SW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Chat.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Chat.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactEditPage.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactEditPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHNcQ29udGFjdEVkaXRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHNcQ29udGFjdHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/News.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/News.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Settings.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Settings.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/SurveyPrompt.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/_Imports.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Contacts/ContactItem.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Contacts/ContactItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0c1xDb250YWN0SXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-0hfelb9yxp
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Navigation/NavigationBar.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Navigation/AppBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZpZ2F0aW9uXEFwcEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3j780z5iu0
+
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Navigation/NavigationBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZpZ2F0aW9uXE5hdmlnYXRpb25CYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ke05u8pdj3
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Index.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rfkvr1v96a
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/MainLayout.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-515oxnwri9
 
-[c:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/NavMenu.razor]
+[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dc0ikc99fd

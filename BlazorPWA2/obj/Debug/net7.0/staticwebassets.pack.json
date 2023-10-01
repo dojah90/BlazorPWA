@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
+      "Id": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\icons\\back.svg",
+      "PackagePath": "staticwebassets\\icons\\back.svg"
+    },
+    {
       "Id": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\wwwroot\\icons\\chat.svg",
       "PackagePath": "staticwebassets\\icons\\chat.svg"
     },
