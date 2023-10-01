@@ -1,6 +1,22 @@
 @import '_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css';
 
 /* /Components/Contacts/ContactItem.razor.rz.scp.css */
+/* /Components/Navigation/AppBar.razor.rz.scp.css */
+.appbar[b-mtgon681q4] {
+    width: 100vw;
+    height: 65px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: rgba(44, 45, 45, .3);
+    backdrop-filter: blur(.5rem);
+    -webkit-backdrop-filter: blur(.5em);
+}
 /* /Components/Navigation/NavigationBar.razor.rz.scp.css */
 .nav-bar[b-35tqwjpbr1] {
     height: 60px;
@@ -40,17 +56,16 @@
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-oi14hoxe8v] {
+    margin-top: 65px;
     height: 100vh;
-    background-color: rgb(19, 19, 19); 
+    background-color: rgb(19, 19, 19);
     color: whitesmoke;
     padding: 1rem;
 }
 
 .main[b-oi14hoxe8v] {
-    height: calc(100% - 60px);    
+    height: calc(100% - 60px);
 }
-
-
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-upoe80tiai] {
     background-color: rgba(255, 255, 255, 0.1);
