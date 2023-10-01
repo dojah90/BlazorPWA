@@ -199,16 +199,18 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13\/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "BlazorPWA2.dll": "sha256-K8VvLo5NvRVTlmReY2cNZjY68ApR5W93kX73QVATwCc="
+      "STDComponents.dll": "sha256-062GGAEvEzYB+o8Ss3vTDSPwBUrnGYS17E64E+VmMnw=",
+      "BlazorPWA2.dll": "sha256-0l58Nke4kyZiMv6rN8UqJGXsHio\/1VhhXEtmT5WZPLY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorPWA2.pdb": "sha256-4BAHkO+la1v0BmtklxpYxLpVfFi53QsQcvhJUJTDckU="
+      "STDComponents.pdb": "sha256-jX0ipeoJ6JRRHb9Eehfb4SMMyNkHqcorJgldKVbd4aQ=",
+      "BlazorPWA2.pdb": "sha256-1BxqnuIvGVMxAqWH1g7okAhoRrYj3lhvsBfeKMJ7MUw="
     },
     "runtime": {
-      "dotnet.7.0.11.hmb3w0sieh.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
+      "dotnet.7.0.11.vc674qucis.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
       "dotnet.timezones.blat": "sha256-gIJRsMe\/q4cM8EeOn+wrpfipBqBOq0niTDjqSBdXsVI=",
       "dotnet.wasm": "sha256-hm1Mz+MEUcCzB1ptOGcOa7Kdyb4wf5\/XLZCe8VoiqkU=",
       "icudt.dat": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4=",

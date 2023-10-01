@@ -1,0 +1,23 @@
+﻿@typeparam TValue
+@typeparam TModel
+@using Microsoft.AspNetCore.Components;
+
+<div>
+    <select @bind="Value">
+        @if (Nullable.GetUnderlyingType(typeof(TValue)) != null)
+        {
+            <option value="">@DefaultOptionText</option>
+        }
+        else
+        {
+            <option value="@(default(TValue))">@DefaultOptionText</option>
+        }
+
+        @foreach (var option in Options)
+        {
+            <option value="@ValuePropertyExpression.Compile().Invoke(option)">
+                @DisplayExpression.Compile().Invoke(option)
+            </option>
+        }
+    </select>
+</div>
