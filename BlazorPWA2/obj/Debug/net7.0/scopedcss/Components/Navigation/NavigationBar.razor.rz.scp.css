@@ -1,26 +1,24 @@
-.nav-bar[b-ke05u8pdj3] {
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.nav-bar[b-35tqwjpbr1] {
+    height: calc(env(safe-area-inset-bottom) + 60px);
+    padding-bottom: env(safe-area-inset-bottom);
     display: flex;
     background-color: rgba(44, 45, 45, .3);
     backdrop-filter: blur(2rem);
     -webkit-backdrop-filter: blur(2em);
     justify-content: space-around;
     align-items: center;
+    align-self: end;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 
-.nav-bar-icon[b-ke05u8pdj3] {
+.nav-bar-icon[b-35tqwjpbr1] {
     width: 25px;
     height: 25px;
     filter: invert(32%) sepia(8%) saturate(848%) hue-rotate(208deg) brightness(90%) contrast(91%);
 }
 
-.nav-bar-icon-selected[b-ke05u8pdj3] {
+.nav-bar-icon-selected[b-35tqwjpbr1] {
     filter: invert(38%) sepia(5%) saturate(3273%) hue-rotate(202deg) brightness(93%) contrast(81%);
 }

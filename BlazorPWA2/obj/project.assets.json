@@ -1894,40 +1894,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/dominikjahn/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
+      "projectUniqueName": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/BlazorPWA2.csproj",
       "projectName": "BlazorPWA2",
-      "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\BlazorPWA2.csproj",
-      "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\BlazorPWA2\\obj\\",
+      "projectPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/BlazorPWA2.csproj",
+      "packagesPath": "/Users/dominikjahn/.nuget/packages/",
+      "outputPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/dominikjahn/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
-              "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj"
+            "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj": {
+              "projectPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj"
             }
           }
         }
@@ -1978,7 +1971,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

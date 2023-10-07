@@ -2,7 +2,7 @@
 
 html {
     min-height: calc(100% + env(safe-area-inset-top));
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
     background-color: black;
     scrollbar-color: blue;
 }
@@ -27,6 +27,9 @@ html {
 html,
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    background-color: rgb(19, 19, 19);
+    color: #0071c1;
 }
 
 h1:focus {

@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\STDComponents.props" />
+  <Import Project="../build/STDComponents.props" />
 </Project>

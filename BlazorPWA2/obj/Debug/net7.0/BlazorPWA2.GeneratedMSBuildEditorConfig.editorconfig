@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorPWA2
 build_property.RootNamespace = BlazorPWA2
-build_property.ProjectDir = C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2\
+build_property.ProjectDir = /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dom\Documents\BlazorPWA\BlazorPWA2
+build_property.MSBuildProjectDirectory = /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/App.razor]
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Input/TextInput.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnB1dFxUZXh0SW5wdXQucmF6b3I=
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Input/TextInput.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Chat.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactEditPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHNcQ29udGFjdEVkaXRQYWdlLnJhem9y
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactEditPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMvQ29udGFjdEVkaXRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHNcQ29udGFjdHNQYWdlLnJhem9y
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMvQ29udGFjdHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/News.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3cy5yYXpvcg==
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/News.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmV3cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Settings.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2V0dGluZ3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/_Imports.razor]
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Contacts/ContactItem.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0c1xDb250YWN0SXRlbS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-0hfelb9yxp
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Contacts/ContactItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db250YWN0cy9Db250YWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dpat7de8bw
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Navigation/AppBar.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZpZ2F0aW9uXEFwcEJhci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-3j780z5iu0
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Navigation/AppBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZpZ2F0aW9uL0FwcEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-mtgon681q4
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Components/Navigation/NavigationBar.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZpZ2F0aW9uXE5hdmlnYXRpb25CYXIucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ke05u8pdj3
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Navigation/NavigationBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZpZ2F0aW9uL05hdmlnYXRpb25CYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-35tqwjpbr1
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-rfkvr1v96a
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6h7vlok1iv
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-515oxnwri9
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oi14hoxe8v
 
-[C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-dc0ikc99fd
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-upoe80tiai

@@ -1,13 +1,23 @@
 ﻿@inherits LayoutComponentBase
 @using BlazorPWA2.Components.Navigation
 
-<AppBar Title="BlazorPWA" />
-
 <div class="page">
-    <div class="main">
+    <AppBar Title="BlazorPWA" />
+    <div class="page-body">
         @Body
     </div>
+            
+   
     <BlazorPWA2.Components.Navigation.NavigationBar />
 </div>
 
-<Modal IsServiceModal="true" UseStaticBackdrop="true" />
+    <Modal IsServiceModal="true" UseStaticBackdrop="true" />
+@*<div class="main-page">
+
+
+<div class="page">
+    
+</div>
+
+
+</div>*@

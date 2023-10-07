@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {}
+    "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj": {
+    "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
+        "projectUniqueName": "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj",
         "projectName": "STDComponents",
-        "projectPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\STDComponents.csproj",
-        "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dom\\Documents\\BlazorPWA\\STDComponents\\obj\\",
+        "projectPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/STDComponents.csproj",
+        "packagesPath": "/Users/dominikjahn/.nuget/packages/",
+        "outputPath": "/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/dominikjahn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

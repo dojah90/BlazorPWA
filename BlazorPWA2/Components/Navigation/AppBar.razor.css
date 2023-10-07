@@ -1,12 +1,14 @@
 .appbar {
     width: 100vw;
-    height: 65px;
+    height: calc(env(safe-area-inset-top) + 50px);
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: env(safe-area-inset-top);
     display: grid;
     justify-content: space-evenly;
-    position: fixed;
+    /*position: fixed;
     top: 0;
+    padding-top: env(safe-area-inset-top);*/
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background-color: rgba(44, 45, 45, .3);

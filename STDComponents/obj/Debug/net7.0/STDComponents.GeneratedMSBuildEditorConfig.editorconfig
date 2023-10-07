@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = STDComponents
 build_property.RootNamespace = STDComponents
-build_property.ProjectDir = C:\Users\Dom\Documents\BlazorPWA\STDComponents\
+build_property.ProjectDir = /Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dom\Documents\BlazorPWA\STDComponents
+build_property.MSBuildProjectDirectory = /Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dom/Documents/BlazorPWA/STDComponents/Basics/Dropdown/STDDropdown.razor]
-build_metadata.AdditionalFiles.TargetPath = QmFzaWNzXERyb3Bkb3duXFNURERyb3Bkb3duLnJhem9y
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/Basics/Dropdown/STDDropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFzaWNzL0Ryb3Bkb3duL1NURERyb3Bkb3duLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dom/Documents/BlazorPWA/STDComponents/_Imports.razor]
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/STDComponents/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
