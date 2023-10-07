@@ -1,16 +1,19 @@
 @import '_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css';
 
 /* /Components/Contacts/ContactItem.razor.rz.scp.css */
+
 /* /Components/Navigation/AppBar.razor.rz.scp.css */
 .appbar[b-mtgon681q4] {
     width: 100vw;
-    height: 65px;
+    height: calc(env(safe-area-inset-top) + 50px);
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: env(safe-area-inset-top);
     display: grid;
     justify-content: space-evenly;
-    position: fixed;
+    /*position: fixed;
     top: 0;
+    padding-top: env(safe-area-inset-top);*/
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background-color: rgba(44, 45, 45, .3);
@@ -19,17 +22,15 @@
 }
 /* /Components/Navigation/NavigationBar.razor.rz.scp.css */
 .nav-bar[b-35tqwjpbr1] {
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: calc(env(safe-area-inset-bottom) + 60px);
+    padding-bottom: env(safe-area-inset-bottom);
     display: flex;
     background-color: rgba(44, 45, 45, .3);
     backdrop-filter: blur(2rem);
     -webkit-backdrop-filter: blur(2em);
     justify-content: space-around;
     align-items: center;
+    align-self: end;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -55,16 +56,13 @@
        
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
-.page[b-oi14hoxe8v] {
-    margin-top: 65px;
-    height: 100vh;
-    background-color: rgb(19, 19, 19);
-    color: whitesmoke;
-    padding: 1rem;
-}
 
-.main[b-oi14hoxe8v] {
-    height: calc(100% - 60px);
+.page[b-oi14hoxe8v] {
+    height: 100vh;
+    
+    display: grid;
+    /*align-items: stretch;
+    justify-content: stretch;*/
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-upoe80tiai] {
