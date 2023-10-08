@@ -101,7 +101,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-km16Lo0CrhjMXVxD2aGAtTIDAlRKx9FV5B7zDYYQptk=",
+      "hash": "sha256-pOpy5FijY2RHjSQbM5o5jeMyRZH+NOhvDP2WDFvQFoE=",
       "url": "index.html"
     },
     {
@@ -337,5 +337,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "BX4xgMYR"
+  "version": "j4o55VJv"
 };
