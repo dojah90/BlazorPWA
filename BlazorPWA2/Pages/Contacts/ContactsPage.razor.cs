@@ -46,6 +46,7 @@ public partial class ContactsPage : ComponentBase
                 {
                     await ContactRepository.DeleteAsync(contact.Id);
                     ContactList.Remove(contact);
+                    StateHasChanged();
                 }
                 catch (Exception ex)
                 {
