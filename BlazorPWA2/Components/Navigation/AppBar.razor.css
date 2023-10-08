@@ -6,12 +6,11 @@
     padding-top: env(safe-area-inset-top);
     display: grid;
     justify-content: space-evenly;
-    /*position: fixed;
-    top: 0;
-    padding-top: env(safe-area-inset-top);*/
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background-color: rgba(44, 45, 45, .3);
     backdrop-filter: blur(.5rem);
     -webkit-backdrop-filter: blur(.5em);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

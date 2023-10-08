@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/ActionButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BY3Rpb25CdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Input/TextInput.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,10 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactEditPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMvQ29udGFjdEVkaXRQYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMvQ29udGFjdHNQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/News.razor]
@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope = b-mtgon681q4
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Components/Navigation/NavigationBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZpZ2F0aW9uL05hdmlnYXRpb25CYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-35tqwjpbr1
+
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Contacts/ContactsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMvQ29udGFjdHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-20jo8222j3
 
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=

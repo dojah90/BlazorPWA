@@ -8,5 +8,12 @@
     <div class="d-flex justify-content-center align-items-center">
         @Title
     </div>
-    <div></div>
+    <div>
+        @if(Actions != null )
+        {
+            @foreach(var action in Actions){
+                <ActionButton Action="@action"  />
+            }
+        }
+    </div>
 </div>

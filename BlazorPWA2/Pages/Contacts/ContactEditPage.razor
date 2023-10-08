@@ -2,8 +2,8 @@
 @using BlazorPWA2.Components.Input
 @using BlazorPWA2.Components.Navigation
 
-
-<div class="d-grid grid-container-4 gap-2">
+<div class="page">
+    <div class="d-grid grid-container-4 gap-2">
     <input type="text" title="Vorname" placeholder="Vorname" @bind="@contact.FirstName" />
     <input type="text" title="Nachname" placeholder="Nachname" @bind="@contact.LastName" />
     <input type="text" title="Alias" placeholder="Alias" @bind="@contact.Alias" />
@@ -11,3 +11,4 @@
 </div>
 
 <button type="button" class="btn btn-save" title="Speichern" @onclick="Save">Speichern</button>
+</div>

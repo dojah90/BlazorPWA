@@ -9,14 +9,13 @@
     padding-top: env(safe-area-inset-top);
     display: grid;
     justify-content: space-evenly;
-    /*position: fixed;
-    top: 0;
-    padding-top: env(safe-area-inset-top);*/
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background-color: rgba(44, 45, 45, .3);
     backdrop-filter: blur(.5rem);
     -webkit-backdrop-filter: blur(.5em);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* /Components/Navigation/NavigationBar.razor.rz.scp.css */
 .nav-bar[b-35tqwjpbr1] {
@@ -43,6 +42,7 @@
 .nav-bar-icon-selected[b-35tqwjpbr1] {
     filter: invert(38%) sepia(5%) saturate(3273%) hue-rotate(202deg) brightness(93%) contrast(81%);
 }
+/* /Pages/Contacts/ContactsPage.razor.rz.scp.css */
 /* /Pages/Index.razor.rz.scp.css */
 
 .component-content[b-rfkvr1v96a] {
@@ -55,13 +55,12 @@
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 
-.page[b-oi14hoxe8v] {
+.main-page[b-oi14hoxe8v] {
     height: 100vh;
-    
     display: grid;
-    /*align-items: stretch;
-    justify-content: stretch;*/
 }
+
+
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-dc0ikc99fd] {
     background-color: rgba(255, 255, 255, 0.1);

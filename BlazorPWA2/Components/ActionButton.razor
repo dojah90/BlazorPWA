@@ -1,0 +1,6 @@
+﻿@if (Action != null)
+{
+    <button type="button" class="icon-btn" @onclick="@Action.OnClicked">
+    <img class="icon" src="@Action.IconPath" />
+</button>
+}

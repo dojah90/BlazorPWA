@@ -6,16 +6,19 @@ namespace BlazorPWA2.Components.Navigation;
 public partial class AppBar
 {
     [Parameter]
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 
-    [Inject] private INavigationService navigationService { get; set; }
+    [Parameter]
+    public List<Action> Actions { get; set; } = new();
+
+    [Inject] private INavigationService? navigationService { get; set; }
 
     private bool canNavBack => navigationService?.CanNavigateBack() ?? false;
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        navigationService.RegisterEventCallback(OnNavigation);
+        navigationService?.RegisterEventCallback(OnNavigation);
     }
 
     private void OnNavigation()

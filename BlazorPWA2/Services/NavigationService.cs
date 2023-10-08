@@ -9,7 +9,7 @@ public class NavigationService : INavigationService
     private readonly ILogger logger;
 
     private string currentPath = "/";
-    private List<Action> eventCallbacks = new();
+    private List<System.Action> eventCallbacks = new();
 
     private List<string> history = new();
 
@@ -20,7 +20,7 @@ public class NavigationService : INavigationService
         currentPath = GetCurrentPath();
     }
 
-    public void RegisterEventCallback(Action callback)
+    public void RegisterEventCallback(System.Action callback)
     {
         if (eventCallbacks == null)
         {
@@ -33,7 +33,7 @@ public class NavigationService : INavigationService
         }
     }
 
-    public void UnregisterEventCallback(Action callback)
+    public void UnregisterEventCallback(System.Action callback)
     {
         eventCallbacks?.Remove(callback);
     }
@@ -91,6 +91,11 @@ public class NavigationService : INavigationService
 
     public string GetCurrentPath()
     {
-        return navigationManager.Uri.Remove(0, navigationManager.BaseUri.Length - 1);
+        var path = navigationManager.Uri.Remove(0, navigationManager.BaseUri.Length - 1);
+        if(path.StartsWith("//")){
+            path = path.Remove(0, 1);
+        }
+
+        return path;
     }
 }
