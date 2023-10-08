@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JbnB1dC9UZXh0SW5wdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Modal/YesNoModal.razor]
+build_metadata.AdditionalFiles.TargetPath = TW9kYWwvWWVzTm9Nb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/Pages/Chat.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,3 +1,4 @@
+using Blazored.Modal;
 using BlazorPWA2;
 using BlazorPWA2.Interfaces;
 using BlazorPWA2.Services;
@@ -19,6 +20,7 @@ namespace BlazorPWA2
 
             services.AddLogging();
             services.AddBlazorBootstrap();
+            services.AddBlazoredModal();
 
             AddServices(services);
             AddRepositories(services);

@@ -2529,3 +2529,7 @@ C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/scopedcss/Component
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/build-gz/Gz5stnXJ.gz
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/scopedcss/Components/Navigation/AppBar.razor.rz.scp.css
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/scopedcss/Pages/Contacts/ContactsPage.razor.rz.scp.css
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/wwwroot/_framework/Blazored.Modal.dll
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/wwwroot/_framework/Blazored.Modal.dll.gz
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/Blazored.Modal.dll
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/build-gz/hE6RE9pU.gz

@@ -8,6 +8,7 @@
   "resources": {
     "assembly": {
       "BlazorBootstrap.dll": "sha256-wsHjEz\/36ZDrnQGfMjQ2tIzkpwKl8fnuqSzKqeQDbK8=",
+      "Blazored.Modal.dll": "sha256-Sr30UiM7JErBe8hojY6HAgaOOgfQE5zHijI0uVypmkM=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-QP+9ib2tHpYrkwMTIkh60aO49DKTGwJBAA5RaITVGDE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-sCo2GmgrMtZQSY+teWT1XlU93C\/x75FDwL155zjC5TI=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-x+mgWzFuhFpGICdKYW5hmKJ3HUUw4GrXhMFi17T4JIM=",
@@ -200,14 +201,14 @@
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
       "STDComponents.dll": "sha256-jGI2b8BK4WKjqK52RL649gny+e3NSp+fYMIy\/Pvsn3c=",
-      "BlazorPWA2.dll": "sha256-waSwqLltKC21iHYfnQVi7WrpJU2cnDA0M+mtQNWdsvY="
+      "BlazorPWA2.dll": "sha256-APiq\/3puYyMwDQZjiw3mrao0BYoCLzXwx9WwtZh0qQM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "STDComponents.pdb": "sha256-KOz0YEYXUPHKF6spchs3J\/1QDg2rFMs8+GYyLS8wWnk=",
-      "BlazorPWA2.pdb": "sha256-a7hvcs4jHBKLil8ml5iKp0Jb2tol7ZVeQ3tR718d3CQ="
+      "BlazorPWA2.pdb": "sha256-6DA\/szkRjmifdAWoGrsrPgeHFQh\/EFgqIySRbSoiV7U="
     },
     "runtime": {
       "dotnet.7.0.11.hmb3w0sieh.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",
