@@ -30,6 +30,7 @@ body {
     overflow: hidden;
     background-color: rgb(19, 19, 19);
     color: #0071c1;
+    overscroll-behavior-y: none;
 }
 
 h1:focus {

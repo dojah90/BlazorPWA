@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-ivfeIKi3Ygqvy3TH0haiMW2qtZ3mEZexW5M7bRs7\/no=",
+      "hash": "sha256-d+LaQ44HBr34jEmRYd5QV1CKQ4qyvQgw0JVWbNH94DU=",
       "url": "css\/app.css"
     },
     {
@@ -337,5 +337,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "tteOQSsA"
+  "version": "K4bzHScM"
 };
