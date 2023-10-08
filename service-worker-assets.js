@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-d2BuYP4YsGF\/r8pcQA\/lOeztEWQjDVh49M3vBKDz\/B0=",
+      "hash": "sha256-Wxol8MwJn9qHCrYepkPJnav\/vYzILOLvSso2BnGCefQ=",
       "url": "BlazorPWA2.styles.css"
     },
     {
@@ -101,7 +101,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-caumty3qI2J8Gh9zjE++GXs3Kr5N74\/Hamcu9n58eXE=",
+      "hash": "sha256-F\/ZKv3mtTpmcZs0R6RsC+sPZhgO8YrvHtm1mwUKlEcc=",
       "url": "index.html"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-d5URgIu7UuOaMlicVmJ7rrs4DNlHunY1d8um1tfKUu0=",
+      "hash": "sha256-HvmBFcDbjDotYxlCRZeFGaBSFX2iQpF0XREAYdfDt\/g=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -157,7 +157,11 @@
       "url": "_framework\/BlazorBootstrap.dll"
     },
     {
-      "hash": "sha256-UKZ+pR54cGNaHEDaLLw92IdYXEcZlX7c75jjmTgJ3vI=",
+      "hash": "sha256-Sr30UiM7JErBe8hojY6HAgaOOgfQE5zHijI0uVypmkM=",
+      "url": "_framework\/Blazored.Modal.dll"
+    },
+    {
+      "hash": "sha256-HBh3HMF1v2dghp7PqMXXJtwGNaRdIEfXEh3oLv9Tdho=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
@@ -169,7 +173,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
-      "hash": "sha256-trwMUPPj6Ur5oZK\/7jUcAqjOaFb1GhKVBb2l78Zovt4=",
+      "hash": "sha256-fwUP\/yW8WEeq\/CJqIVAdIjWON+ENov86J4K9ihuHqzk=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
@@ -197,7 +201,7 @@
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
-      "hash": "sha256-\/UdYQogdU\/Kj0vqsqfj\/p5PN6+NcP\/BjnuJ44kayzLM=",
+      "hash": "sha256-wm0TmceHJ+dWgDB+USg8K6sQFRZ2qOte5mjfZmmzrXE=",
       "url": "_framework\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
@@ -213,7 +217,7 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.dll"
     },
     {
-      "hash": "sha256-1GhkJyOn1KG7\/DDO+na\/ymLnCAvtmZINvHbkIdGF+oI=",
+      "hash": "sha256-oMH7pLXNeoiskyZuYjXTASIdM0jWS5LrrmdmZRdDzc0=",
       "url": "_framework\/Microsoft.JSInterop.dll"
     },
     {
@@ -229,7 +233,7 @@
       "url": "_framework\/System.Collections.Concurrent.dll"
     },
     {
-      "hash": "sha256-9AHPmHKXGKIYMvJvUjH3dXefdW0ELn8SZziam7SF2UQ=",
+      "hash": "sha256-YbPuEWFOjMCARRXdirSjEAlpFLrG8+9HyYgC2A2G5ZE=",
       "url": "_framework\/System.Collections.dll"
     },
     {
@@ -269,7 +273,7 @@
       "url": "_framework\/System.Drawing.Primitives.dll"
     },
     {
-      "hash": "sha256-sfao+3T6G0P5BE6MobokZq\/v1i+wFMkb5d3F28Vl+aU=",
+      "hash": "sha256-rSnvat97n\/Lv87PszkmK3kuA1GFKexn6hQDSJnvq0GA=",
       "url": "_framework\/System.Linq.dll"
     },
     {
@@ -293,7 +297,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-6E9RwYGxmfWiZVBF\/K9ucxpah4BiuQrXpOGql9ZoVYw=",
+      "hash": "sha256-zd0MU8EV5UoRYeaATAFyyMeiUzM9Li00dKPJ8ngBt\/c=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -301,7 +305,7 @@
       "url": "_framework\/System.Private.Uri.dll"
     },
     {
-      "hash": "sha256-i\/DYC61Lj8Y14QsVcGWv9J\/sBQ40IHgphgeqGs5z\/RY=",
+      "hash": "sha256-31K\/YgvQokrmOLq1kxFrspLtFuGBCOMvT90V7AJ2luw=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -325,6 +329,10 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     },
     {
+      "hash": "sha256-NRzGRdnlAxAGthP9SY4CJqDqVewUV+0ZXzfRxXher1I=",
+      "url": "_content\/Blazored.Modal\/Blazored.Modal.bundle.scp.css"
+    },
+    {
       "hash": "sha256-Vp2P86fAoqHDkJfz21dXVdc2yLJ4nrUTywu1y01rfa0=",
       "url": "_content\/Blazor.Bootstrap\/blazor.bootstrap.css"
     },
@@ -335,7 +343,11 @@
     {
       "hash": "sha256-J1yB7ftYf6PWiU1781eE0JHBGfd1MV\/XlLaxpVy09RU=",
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
+    },
+    {
+      "hash": "sha256-JnMrV9FYOYSibA85LvQGGV3uJ7zv2njdJX1GFslt2Aw=",
+      "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "lf6s\/dHV"
+  "version": "7OQQ+oD9"
 };
