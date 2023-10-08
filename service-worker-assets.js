@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-YQ6US3JtDuv6Yj6IfyJqY9clSyMnkT+62HYSMpB+a2c=",
+      "hash": "sha256-d2BuYP4YsGF\/r8pcQA\/lOeztEWQjDVh49M3vBKDz\/B0=",
       "url": "BlazorPWA2.styles.css"
     },
     {
@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-U9GRgMg1iPln0memgJaBnvSk3N8U1W6ATBvii2iNxlA=",
+      "hash": "sha256-ivfeIKi3Ygqvy3TH0haiMW2qtZ3mEZexW5M7bRs7\/no=",
       "url": "css\/app.css"
     },
     {
@@ -101,7 +101,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-ty7z0btBBKnHWMP82MbrXkfwGcPARww\/drqdtuRhYTc=",
+      "hash": "sha256-km16Lo0CrhjMXVxD2aGAtTIDAlRKx9FV5B7zDYYQptk=",
       "url": "index.html"
     },
     {
@@ -149,7 +149,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-c9qpuBdx713rywHFryh8z8Zuw7Ehzfsj\/GAcnhOc1w8=",
+      "hash": "sha256-TxBsWvV9eWzfW3Os3nNdWFIkrw0cZve+2XdTIo9D5GA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -157,7 +157,7 @@
       "url": "_framework\/BlazorBootstrap.dll"
     },
     {
-      "hash": "sha256-gC0snFySPOLUojIoYqO0+SxQe5IEDZ\/d7\/0Ry1lrVLo=",
+      "hash": "sha256-vitC9uatljW5s1ym1Zj4iswA6\/plWTdhU2FKMT5nCtg=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
@@ -337,5 +337,5 @@
       "url": "_content\/Blazor.Bootstrap\/icon\/128X128.png"
     }
   ],
-  "version": "rS632KGM"
+  "version": "BX4xgMYR"
 };
