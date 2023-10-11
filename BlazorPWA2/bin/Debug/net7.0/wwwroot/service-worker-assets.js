@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-celRyxRqDpC\/BBUZn41Spz829CqkYuxYVrtr713nNmc=",
+      "hash": "sha256-s1o2MsJ\/xYDgqpVa8TmDW\/o\/kIMhydLe9+ogUcN7QEQ=",
       "url": "css\/app.css"
     },
     {
@@ -973,5 +973,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "Ywd7p6OB"
+  "version": "+XRBx7Pa"
 };
