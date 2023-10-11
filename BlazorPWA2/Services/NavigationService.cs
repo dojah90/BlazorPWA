@@ -1,5 +1,6 @@
 using BlazorPWA2.Interfaces;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace BlazorPWA2.Services;
 
@@ -8,15 +9,18 @@ public class NavigationService : INavigationService
     private readonly NavigationManager navigationManager;
     private readonly ILogger logger;
 
+    private IJSRuntime jsRuntime;
+
     private string currentPath = "/";
     private List<System.Action> eventCallbacks = new();
 
     private List<string> history = new();
 
-    public NavigationService(ILogger<NavigationService> logger, NavigationManager navigationManager)
+    public NavigationService(ILogger<NavigationService> logger, NavigationManager navigationManager, IJSRuntime jsRuntime)
     {
         this.logger = logger;
         this.navigationManager = navigationManager;
+        this.jsRuntime = jsRuntime;
         currentPath = GetCurrentPath();
     }
 
@@ -38,7 +42,7 @@ public class NavigationService : INavigationService
         eventCallbacks?.Remove(callback);
     }
 
-    public void NavigateTo(string path)
+    public async void NavigateTo(string path)
     {
         logger.Log(LogLevel.Information, path);
         if (string.IsNullOrEmpty(path) == false)
@@ -50,9 +54,12 @@ public class NavigationService : INavigationService
                 history.Add(path);
             }
 
+            await jsRuntime.InvokeVoidAsync("fadeOut");
+            await Task.Delay(500);
             navigationManager.NavigateTo($"{navigationManager.BaseUri}{path}");
+            await jsRuntime.InvokeVoidAsync("fadeIn");
 
-            Task.Run(() =>
+            _ = Task.Run(() =>
             {
                 foreach (var action in eventCallbacks)
                 {

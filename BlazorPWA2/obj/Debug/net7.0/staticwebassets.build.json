@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ltvNoZDiMlavnlYJqVJuFcDtZvyw1m8hoFJPhyLCBxY=",
+  "Hash": "gjZhenZZYxaDPJGM3b4vpBnvbjmEN0c+fOxI14Cv26E=",
   "Source": "BlazorPWA2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7694,6 +7694,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/scripts/app.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "scripts/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts/app.js"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/scripts/jquery.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "scripts/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts/jquery.js"
     }
   ]
 }

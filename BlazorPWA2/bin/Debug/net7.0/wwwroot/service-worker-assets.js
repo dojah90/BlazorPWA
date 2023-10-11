@@ -5,11 +5,11 @@
       "url": ".nojekyll"
     },
     {
-      "hash": "sha256-950QfcV2uoFxLdvap9G8xOS+wUkkDkxeBEvKakmkpMo=",
+      "hash": "sha256-caumty3qI2J8Gh9zjE++GXs3Kr5N74\/Hamcu9n58eXE=",
       "url": "404.html"
     },
     {
-      "hash": "sha256-d+LaQ44HBr34jEmRYd5QV1CKQ4qyvQgw0JVWbNH94DU=",
+      "hash": "sha256-mzBSRmiPXwSAzZrRuuXLrOgOQuc+YIBYw\/iHDT2vXQc=",
       "url": "css\/app.css"
     },
     {
@@ -97,7 +97,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-950QfcV2uoFxLdvap9G8xOS+wUkkDkxeBEvKakmkpMo=",
+      "hash": "sha256-qMWJbR3ihSSSiGtnUUdAHLwGiB\/hPkangYlHxs7qDao=",
       "url": "index.html"
     },
     {
@@ -111,6 +111,14 @@
     {
       "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data\/weather.json"
+    },
+    {
+      "hash": "sha256-56dQv6YP8PZFVJajizMroh34+onBQ8pAsqXeZO6GTgw=",
+      "url": "scripts\/app.js"
+    },
+    {
+      "hash": "sha256-PnUB0Vw2MOeRyLIDkuud7jGp9lzj793nbO9ccQFBqyQ=",
+      "url": "scripts\/jquery.js"
     },
     {
       "hash": "sha256-Wxol8MwJn9qHCrYepkPJnav\/vYzILOLvSso2BnGCefQ=",
@@ -925,11 +933,11 @@
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-IVcLhBYtTlgkTpNsovyLZNz8phQ3kaNFaDCPB+zpIOc=",
+      "hash": "sha256-3D6ZNmIeNFF+1Wt6LXoSVsFxgVOpMSKBsIqfZP44Ou4=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-xWvJK2oPh4zILZvKzuay\/4GjgLuLqzdWP+0nhnIHmBY=",
+      "hash": "sha256-Oy\/b7bnswBS\/7kkvFKK2bz5k0jXFlubvsQHaAgDAyyc=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -937,7 +945,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ojlTwD+HQVf87JbQr2ayGzIlymJjOfrJkrPKs2KsYaU=",
+      "hash": "sha256-k+i24X9v5zlee81h++0QnYvhijGBeiFRPbsdA7pBXlY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -965,5 +973,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "pUYCsgpd"
+  "version": "HtKxagsS"
 };

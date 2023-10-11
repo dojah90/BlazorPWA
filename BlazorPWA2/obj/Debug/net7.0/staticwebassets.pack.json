@@ -133,6 +133,14 @@
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/scripts/app.js",
+      "PackagePath": "staticwebassets/scripts/app.js"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/scripts/jquery.js",
+      "PackagePath": "staticwebassets/scripts/jquery.js"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorPWA2.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

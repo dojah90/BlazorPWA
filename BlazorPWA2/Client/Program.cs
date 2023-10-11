@@ -21,7 +21,6 @@ namespace BlazorPWA2
             services.AddLogging();
             services.AddBlazorBootstrap();
             services.AddBlazoredModal();
-
             AddServices(services);
             AddRepositories(services);
 
