@@ -13,14 +13,6 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-hSyiLFr5v6G+UeOXoz7MXxy8USptJNTDx4L+vRB4Yro=",
-      "url": "app_logo_192.png"
-    },
-    {
-      "hash": "sha256-3CISuG38QjmrAgsik4k7nA7LBuiRbxm8XYGVveF6uDM=",
-      "url": "app_logo.png"
-    },
-    {
       "hash": "sha256-q7\/i3DfWOjD0F\/p7IcU42enXKZD02f0HSGVag1COo4o=",
       "url": "css\/app.css"
     },
@@ -73,11 +65,11 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
-      "url": "icon-192.png"
+      "hash": "sha256-hSyiLFr5v6G+UeOXoz7MXxy8USptJNTDx4L+vRB4Yro=",
+      "url": "icon_192.png"
     },
     {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
+      "hash": "sha256-3CISuG38QjmrAgsik4k7nA7LBuiRbxm8XYGVveF6uDM=",
       "url": "icon-512.png"
     },
     {
@@ -113,7 +105,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-YT\/bQM0XxuGFO2rAwbgk0+tHLLu\/F3EDf0R8xeb7TNQ=",
+      "hash": "sha256-n7O5D3KqVA+P\/MujPwoRAgpdnwWt8CCIy9pyYyIbN+g=",
       "url": "manifest.json"
     },
     {
@@ -365,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "xnjjyZJ5"
+  "version": "kzFjYjxE"
 };
