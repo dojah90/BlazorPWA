@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-nFyXLyul9Gd74cL4Pu3irR9bErgS9JMIEsTqsf3gw7s=",
+      "hash": "sha256-celRyxRqDpC\/BBUZn41Spz829CqkYuxYVrtr713nNmc=",
       "url": "css\/app.css"
     },
     {
@@ -121,7 +121,7 @@
       "url": "scripts\/jquery.js"
     },
     {
-      "hash": "sha256-Wxol8MwJn9qHCrYepkPJnav\/vYzILOLvSso2BnGCefQ=",
+      "hash": "sha256-nRoMWyKr3Jo8Fp6mQvRNqo1YVZLMo9+zNYSITwUyCzk=",
       "url": "BlazorPWA2.styles.css"
     },
     {
@@ -973,5 +973,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "iI83Pcb1"
+  "version": "Ywd7p6OB"
 };
