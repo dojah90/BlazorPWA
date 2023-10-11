@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-l9UVjlDNcgueOi+wFjhwbqAgi6WeYXtLpwRiUmcZ7LA=",
+      "hash": "sha256-LMjs\/WNepu4zxLHdJ3UdCcFT0H7886EuX91odIbMic8=",
       "url": "css\/app.css"
     },
     {
@@ -117,7 +117,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-9Hj\/95Soy2V\/UChOfBBY+92MEP1OySB2p3uJRQCWav4=",
+      "hash": "sha256-4AnpYqfeD1xWdUPe\/ds1oStMnSe4hC64mc+kkTFkmWY=",
       "url": "scripts\/app.js"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "+jpd84JU"
+  "version": "5bBq0V0X"
 };
