@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-s1o2MsJ\/xYDgqpVa8TmDW\/o\/kIMhydLe9+ogUcN7QEQ=",
+      "hash": "sha256-cDe36mKAzUXaP9BdBB\/mKaK4XtIXTJ5d88zF\/hkLLtE=",
       "url": "css\/app.css"
     },
     {
@@ -101,7 +101,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-U2prfPO1sW\/uKVXaDBT1sxGS9R+RHAkqeDtR5jdFYfg=",
+      "hash": "sha256-qMWJbR3ihSSSiGtnUUdAHLwGiB\/hPkangYlHxs7qDao=",
       "url": "index.html"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "WE00dgG\/"
+  "version": "iPHVlpSh"
 };
