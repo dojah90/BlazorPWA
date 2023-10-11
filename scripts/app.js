@@ -6,9 +6,9 @@
 });*/
 
 function fadeIn(){
-    $(".page-body").fadeIn(500);
+    $(".page-body").fadeIn(200);
 }
 
 function fadeOut(){
-    $(".page-body").fadeOut(500);
+    $(".page-body").fadeOut(200);
 }
