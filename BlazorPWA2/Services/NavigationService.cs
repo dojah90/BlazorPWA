@@ -55,7 +55,7 @@ public class NavigationService : INavigationService
             }
 
             await jsRuntime.InvokeVoidAsync("fadeOut");
-            await Task.Delay(500);
+            await Task.Delay(200);
             navigationManager.NavigateTo($"{navigationManager.BaseUri}{path}");
             await jsRuntime.InvokeVoidAsync("fadeIn");
 
