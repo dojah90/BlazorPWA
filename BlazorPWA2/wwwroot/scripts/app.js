@@ -5,6 +5,10 @@
     });
 });*/
 
+window.onresize = function() {
+    document.body.height = window.innerHeight;
+}
+
 function fadeIn(){
     $(".page-body").fadeIn(200);
 }
