@@ -9,6 +9,8 @@ window.onresize = function() {
     document.body.height = window.innerHeight;
 }
 
+window.onresize();
+
 function fadeIn(){
     $(".page-body").fadeIn(200);
 }
