@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-cDe36mKAzUXaP9BdBB\/mKaK4XtIXTJ5d88zF\/hkLLtE=",
+      "hash": "sha256-q7\/i3DfWOjD0F\/p7IcU42enXKZD02f0HSGVag1COo4o=",
       "url": "css\/app.css"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "CDXAHLFN"
+  "version": "ujrLwmV0"
 };

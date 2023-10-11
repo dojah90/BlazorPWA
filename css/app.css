@@ -178,7 +178,7 @@ a,
 /*---- Layout ----*/
 
 .page-body {
-    height: calc(100svh - 60px - 50px - env(safe-area-inset-top));/* - env(safe-area-inset-bottom)*/
+    height: calc(100svh - 60px - 50px - env(safe-area-inset-bottom));/*- env(safe-area-inset-top) */
     padding: 1rem;
     overflow-y: auto;
 }
