@@ -117,7 +117,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-15pIe9CXGNagCSzwdfNaC2YtqdC+jnX9HzC1G\/57nls=",
+      "hash": "sha256-Hoq\/biTlxFcgAy2Um+7qXykFE7csn+eY47cz\/kl0gZE=",
       "url": "scripts\/app.js"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "NikjpNPX"
+  "version": "yz4Ea5pl"
 };
