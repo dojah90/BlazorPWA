@@ -13,6 +13,14 @@
       "url": "404.html"
     },
     {
+      "hash": "sha256-hSyiLFr5v6G+UeOXoz7MXxy8USptJNTDx4L+vRB4Yro=",
+      "url": "app_logo_192.png"
+    },
+    {
+      "hash": "sha256-3CISuG38QjmrAgsik4k7nA7LBuiRbxm8XYGVveF6uDM=",
+      "url": "app_logo.png"
+    },
+    {
       "hash": "sha256-q7\/i3DfWOjD0F\/p7IcU42enXKZD02f0HSGVag1COo4o=",
       "url": "css\/app.css"
     },
@@ -105,7 +113,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-3kU+A7m\/k8vuYDlSqE0dpzoVKH0tE\/FuTZOiRXARS5I=",
+      "hash": "sha256-YT\/bQM0XxuGFO2rAwbgk0+tHLLu\/F3EDf0R8xeb7TNQ=",
       "url": "manifest.json"
     },
     {
@@ -357,5 +365,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "ujrLwmV0"
+  "version": "xnjjyZJ5"
 };
