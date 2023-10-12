@@ -11,7 +11,7 @@ public class NavigationService : INavigationService
 
     private IJSRuntime jsRuntime;
 
-    private string currentPath = "/";
+    private string currentPath = "/home";
     private List<System.Action> eventCallbacks = new();
 
     private List<string> history = new();
@@ -44,6 +44,11 @@ public class NavigationService : INavigationService
 
     public async void NavigateTo(string path)
     {
+        if(currentPath.Equals(path))
+        {
+            return;
+        }
+
         logger.Log(LogLevel.Information, path);
         if (string.IsNullOrEmpty(path) == false)
         {

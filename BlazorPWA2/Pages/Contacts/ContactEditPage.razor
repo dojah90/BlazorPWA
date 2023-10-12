@@ -4,13 +4,29 @@
 @using BlazorPWA2.Components.Navigation
 
 
-<div class="page">
     <div class="d-grid grid-container-4 gap-2">
-    <input type="text" title="Vorname" placeholder="Vorname" @bind="@contact.FirstName" />
-    <input type="text" title="Nachname" placeholder="Nachname" @bind="@contact.LastName" />
-    <input type="text" title="Alias" placeholder="Alias" @bind="@contact.Alias" />
-    <input type="date" title="Geburtstag" placeholder="Geburtstag" @bind="@contact.Birthday" />
-</div>
+        <div class="form-floating">
+            <input type="text" id="firstname" class="form-control" title="Vorname" placeholder="Vorname"
+                @bind="@contact.FirstName" />
+            <label for="firstname">Vorname</label>
+        </div>
+        <div class="form-floating">
+            <input type="text" id="lastname" class="form-control" title="Nachname" placeholder="Nachname"
+                @bind="@contact.LastName" />
+            <label for="lastname">Nachname</label>
+        </div>
+        <div class="form-floating">
+            <input type="text" id="alias" class="form-control" title="Alias" placeholder="Alias"
+                @bind="@contact.Alias" />
+            <label for="alias">Alias</label>
+        </div>
+        <div class="form-floating">
+            <input type="date" id="birthday" class="form-control" title="Geburtstag" placeholder="Geburtstag"
+                @bind="@contact.Birthday" />
+            <label for="birthday">Geburtstag</label>
+        </div>
 
-<button type="button" class="btn btn-save" title="Speichern" @onclick="Save">Speichern</button>
-</div>
+    </div>
+
+    <button type="button" class="btn btn-save" title="Speichern" @onclick="Save">Speichern</button>
+
