@@ -1,7 +1,7 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html {
-    min-height: calc(100% + env(safe-area-inset-top));
+    min-height: calc(100svh + env(safe-area-inset-top));
     /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
     background-color: black;
     scrollbar-color: blue;
@@ -178,8 +178,11 @@ a,
 /*---- Layout ----*/
 
 .page-body {
-    height: calc(100svh - 60px - 50px - env(safe-area-inset-bottom));/*- env(safe-area-inset-top) */
+    /*height: calc(100svh - 60px - 50px - env(safe-area-inset-bottom));/*- env(safe-area-inset-top) */
+    height: 100svh;
     padding: 1rem;
+    padding-top: calc(env(safe-area-inset-top) + 50px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
     overflow-y: auto;
 }
 

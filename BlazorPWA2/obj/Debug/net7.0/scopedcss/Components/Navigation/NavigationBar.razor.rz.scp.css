@@ -1,4 +1,7 @@
 .nav-bar[b-35tqwjpbr1] {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: calc(env(safe-area-inset-bottom) + 60px);
     padding-bottom: env(safe-area-inset-bottom);
     display: flex;
