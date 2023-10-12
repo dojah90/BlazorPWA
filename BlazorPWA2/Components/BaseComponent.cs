@@ -1,11 +1,18 @@
-﻿namespace BlazorPWA2;
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
-public abstract class BaseComponent<T>
+namespace BlazorPWA2;
+
+public abstract class BaseComponent : ComponentBase
 {
-    public ILogger<T> Logger { get; set; }
+    [Inject] public IJSRuntime JSRuntime { get; set; }
 
-    public BaseComponent(ILogger<T> logger)
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        Logger = logger;
+        await base.OnAfterRenderAsync(firstRender);
+        if (firstRender == true)
+        {
+            //await JSRuntime.InvokeVoidAsync("fadeIn");
+        }
     }
 }

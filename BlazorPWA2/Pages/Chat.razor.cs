@@ -1,6 +1,10 @@
-﻿namespace BlazorPWA2;
+﻿
+using Microsoft.JSInterop;
 
-public partial class Chat
+namespace BlazorPWA2;
+
+public partial class Chat : BaseComponent
 {
     public bool isTrue = true;
+
 }

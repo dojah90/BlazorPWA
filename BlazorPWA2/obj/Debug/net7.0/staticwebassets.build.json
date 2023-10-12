@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gjZhenZZYxaDPJGM3b4vpBnvbjmEN0c+fOxI14Cv26E=",
+  "Hash": "1hhmwzxyrraZpr9FIRIypc2Z9Nj4s2F27zD0E7QoOLk=",
   "Source": "BlazorPWA2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7475,12 +7475,12 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-192.png",
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon_192.png",
       "SourceId": "BlazorPWA2",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "icon-192.png",
+      "RelativePath": "icon_192.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7489,7 +7489,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/icon-192.png"
+      "OriginalItemSpec": "wwwroot/icon_192.png"
     },
     {
       "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-512.png",

@@ -1,10 +1,11 @@
 ﻿using BlazorPWA2.Interfaces;
 using BlazorPWA2.Model;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace BlazorPWA2.Pages.Contacts;
 
-public partial class ContactEditPage : ComponentBase
+public partial class ContactEditPage : BaseComponent
 {
     [Inject] IContactRepository contactRepository { get; set; }
     [Inject] INavigationService navigationService { get; set; }

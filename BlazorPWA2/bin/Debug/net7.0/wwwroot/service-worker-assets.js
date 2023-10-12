@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-s1o2MsJ\/xYDgqpVa8TmDW\/o\/kIMhydLe9+ogUcN7QEQ=",
+      "hash": "sha256-q7\/i3DfWOjD0F\/p7IcU42enXKZD02f0HSGVag1COo4o=",
       "url": "css\/app.css"
     },
     {
@@ -61,11 +61,7 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-DbpQaq68ZSb5IoPosBErM1QWBfsbTxpJqhU0REi6wP4=",
-      "url": "icon-192.png"
-    },
-    {
-      "hash": "sha256-oEo6d+KqX5fjxTiZk\/w9NB3Mi0+ycS5yLwCKwr4IkbA=",
+      "hash": "sha256-3CISuG38QjmrAgsik4k7nA7LBuiRbxm8XYGVveF6uDM=",
       "url": "icon-512.png"
     },
     {
@@ -97,11 +93,15 @@
       "url": "icons\/trash.svg"
     },
     {
+      "hash": "sha256-hSyiLFr5v6G+UeOXoz7MXxy8USptJNTDx4L+vRB4Yro=",
+      "url": "icon_192.png"
+    },
+    {
       "hash": "sha256-qMWJbR3ihSSSiGtnUUdAHLwGiB\/hPkangYlHxs7qDao=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-3kU+A7m\/k8vuYDlSqE0dpzoVKH0tE\/FuTZOiRXARS5I=",
+      "hash": "sha256-n7O5D3KqVA+P\/MujPwoRAgpdnwWt8CCIy9pyYyIbN+g=",
       "url": "manifest.json"
     },
     {
@@ -113,7 +113,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-4AnpYqfeD1xWdUPe\/ds1oStMnSe4hC64mc+kkTFkmWY=",
+      "hash": "sha256-YuUBP25hyWFmFEcssx+7muB6AQOk85FNiw68IbJVN58=",
       "url": "scripts\/app.js"
     },
     {
@@ -933,11 +933,11 @@
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-JyWzmFa639e7ykjyC+gtulCszXehPWrQQ1bwqIOIYck=",
+      "hash": "sha256-XDsMXw5+EXsAauH2NAMezeNNZPoXhiA1B4ujOVe0Txs=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-LeEL\/e\/kI3dgnUIsMqHovoa+Fg4+9LDu06NJZJBUgx0=",
+      "hash": "sha256-5cTabqOd+p1Znf06k9KBgXOth+SWdR4DHEExY089XLo=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -945,7 +945,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-jiHr24KQ3sn4THLHl1oy9MRHXV\/xkeMeBb3E779+bAA=",
+      "hash": "sha256-5kVLhv2hCQozqbUUptHdD+vlr0n2dY0xiI40PCSR22U=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -973,5 +973,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "+XRBx7Pa"
+  "version": "zCRTRoPe"
 };

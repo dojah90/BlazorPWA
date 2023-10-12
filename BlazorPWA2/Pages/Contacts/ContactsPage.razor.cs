@@ -6,17 +6,18 @@ using BlazorPWA2.Modal;
 using BlazorPWA2.Model;
 using BlazorPWA2.Services;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 
 namespace BlazorPWA2.Pages.Contacts;
 
-public partial class ContactsPage : ComponentBase
+public partial class ContactsPage : BaseComponent
 {
+
+
     [Inject] public IContactRepository ContactRepository { get; set; }
     [Inject] IModalService modalService { get; set; }
     [Inject] INavigationService navigationService { get; set; }
-    [Inject] ILogger<ContactsPage> logger {get;set;}
-
-
+    [Inject] ILogger<ContactsPage> logger { get; set; }
     public List<Contact> ContactList { get; set; } = new();
 
     protected override async Task OnInitializedAsync()

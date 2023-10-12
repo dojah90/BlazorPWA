@@ -81,12 +81,12 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-192.png",
-      "PackagePath": "staticwebassets/icon-192.png"
-    },
-    {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-512.png",
       "PackagePath": "staticwebassets/icon-512.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon_192.png",
+      "PackagePath": "staticwebassets/icon_192.png"
     },
     {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icons/back.svg",
