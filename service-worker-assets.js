@@ -101,11 +101,11 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-qMWJbR3ihSSSiGtnUUdAHLwGiB\/hPkangYlHxs7qDao=",
+      "hash": "sha256-U2prfPO1sW\/uKVXaDBT1sxGS9R+RHAkqeDtR5jdFYfg=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-aUT4lHTMZYglfAWax1S5trxSN3gH3Q3K2k5sOyzccI0=",
+      "hash": "sha256-DRRcERWOVOjpQoz3e\/4LpXUugBw02jdt3IR9q5n925g=",
       "url": "manifest.json"
     },
     {
@@ -357,5 +357,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "K81I0h\/e"
+  "version": "1TAh0Gxn"
 };
