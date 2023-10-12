@@ -1,11 +1,38 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+:root {
+    --text-color: rgb(138, 138, 138);
+    --background-color: rgb(31,31,31);
+}
+
 html {
     min-height: calc(100svh + env(safe-area-inset-top));
     /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
     background-color: black;
-    scrollbar-color: blue;
+    caret-color: var(--text-color);
 }
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: var(--text-color);
+    background: rgb(68, 68, 68);
+  }
+  
+  ::selection {
+    color: var(--text-color);
+    background: rgb(68, 68, 68);
+  }
 
 /* Anpassungen in Safari nicht möglich, nur Chrome Firefox Edge usw.
 ::-webkit-scrollbar {
@@ -29,7 +56,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow: hidden;
     background-color: rgb(19, 19, 19);
-    color: #0071c1;
+    color: var(--text-color);
     overscroll-behavior-y: none;
 }
 
@@ -180,10 +207,13 @@ a,
 .page-body {
     /*height: calc(100svh - 60px - 50px - env(safe-area-inset-bottom));/*- env(safe-area-inset-top) */
     height: 100svh;
-    padding: 1rem;
     padding-top: calc(env(safe-area-inset-top) + 50px);
     padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
     overflow-y: auto;
+}
+
+.page-body-content {
+    padding: .5rem;
 }
 
 .justify-content-space-between {
@@ -212,7 +242,33 @@ input {
     border: none;
     outline: none;
     width: 100%;
-    background-color: rgb(31,31,31);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    color-scheme: dark;
+}
+
+input[type="date"] {
+    display:flex;
+    display:-webkit-flex;
+    flex: 1 0 0;
+    -webkit-flex: 1 0 0;
+}
+
+.form-control {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: none;
+}
+
+::placeholder {
+    color: rgb(150,150,150)
 }
 
 .btn {
