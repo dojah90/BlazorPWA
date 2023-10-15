@@ -27,7 +27,7 @@
     padding-bottom: env(safe-area-inset-bottom);
     display: flex;
     background-color: rgba(44, 45, 45, .3);
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(.5rem);
     -webkit-backdrop-filter: blur(.5rem);
     justify-content: space-around;
     align-items: center;
@@ -35,7 +35,6 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 
 .nav-bar-icon[b-35tqwjpbr1] {
     width: 25px;

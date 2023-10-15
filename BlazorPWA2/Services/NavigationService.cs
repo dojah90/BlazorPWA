@@ -11,7 +11,7 @@ public class NavigationService : INavigationService
 
     private IJSRuntime jsRuntime;
 
-    private string currentPath = "/home";
+    private string currentPath = "home";
     private List<System.Action> eventCallbacks = new();
 
     private List<string> history = new();
