@@ -205,15 +205,10 @@ a,
 /*---- Layout ----*/
 
 .page-body {
-    /*height: calc(100svh - 60px - 50px - env(safe-area-inset-bottom));/*- env(safe-area-inset-top) */
-    height: 100svh;
+    height: calc(100svh + env(safe-area-inset-top) + env(safe-area-inset-bottom));
     padding-top: calc(env(safe-area-inset-top) + 50px);
-    padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + env(safe-area-inset-bottom) + 60px);
     overflow-y: auto;
-}
-
-.page-body-content {
-    padding: .5rem;
 }
 
 .justify-content-space-between {
