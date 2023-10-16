@@ -1,7 +1,6 @@
 ﻿
 using BlazorPWA2.Interfaces;
 using Microsoft.AspNetCore.Components;
-using Microsoft.JSInterop;
 
 namespace BlazorPWA2.Pages;
 
