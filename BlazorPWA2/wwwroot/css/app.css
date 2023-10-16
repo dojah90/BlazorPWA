@@ -1,14 +1,24 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-:root {
-    --text-color: rgb(138, 138, 138);
-    --background-color: rgb(31,31,31);
+.theme-light {
+    --text-color: black;
+    --background-color: white;
+    --background-card: rgb(220, 220, 220);
+    --color-card: rgb(31, 31, 31);
 }
+
+.theme-dark {
+    --text-color: rgb(138, 138, 138);
+    --background-color: rgb(19, 19, 19);
+    --background-card: rgb(52, 52, 52);
+    --color-card: rgb(220, 220, 220);
+}
+
 
 html {
     min-height: calc(100svh + env(safe-area-inset-top));
     /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
-    background-color: black;
+    background-color: var(--background-color);
     caret-color: var(--text-color);
 }
 
@@ -55,7 +65,7 @@ html,
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow: hidden;
-    background-color: rgb(19, 19, 19);
+    background-color: var(--background-color);
     color: var(--text-color);
     overscroll-behavior-y: none;
 }
@@ -205,10 +215,14 @@ a,
 /*---- Layout ----*/
 
 .page-body {
-    height: calc(100svh + env(safe-area-inset-top) /*+ env(safe-area-inset-bottom)*/);
+    height: calc(100svh + env(safe-area-inset-top));
     padding-top: calc(env(safe-area-inset-top) + 50px);
-    padding-bottom: calc(env(safe-area-inset-bottom) /*+ env(safe-area-inset-bottom) */+ 60px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
     overflow-y: auto;
+}
+
+.page-body-content {
+    padding: .5rem;
 }
 
 .justify-content-space-between {
@@ -262,6 +276,10 @@ input[type="date"] {
     box-shadow: none;
 }
 
+.form-check-input {
+    background-color: var(--background-card);
+}
+
 ::placeholder {
     color: rgb(150,150,150)
 }
@@ -286,8 +304,8 @@ input[type="date"] {
 }
 
 .card {
-    color: whitesmoke;
-    background-color: rgb(53, 52, 52);
+    color: var(--color-card);
+    background-color: var(--background-card);
     min-height: 50px;
     height: auto;
     padding: .3rem;

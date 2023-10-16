@@ -29,7 +29,8 @@ namespace BlazorPWA2
 
         private static void AddServices(IServiceCollection services){
             services.AddScoped<INavigationService, NavigationService>()
-            .AddScoped<ILocalStorageService, LocalStorageService>();
+            .AddScoped<ILocalStorageService, LocalStorageService>()
+            .AddScoped<ISettingsService, SettingsService>();
         }
 
         private static void AddRepositories(IServiceCollection services){

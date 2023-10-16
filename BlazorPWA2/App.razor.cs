@@ -6,8 +6,5 @@ namespace BlazorPWA2;
 public partial class App : ComponentBase
 {
     [CascadingParameter] public Blazored.Modal.Services.IModalService Modal { get; set; } = default!;
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-    }
+  
 }

@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-CBRxKYEDLYvzs79LIFjjNZgW4Tsg0IIlm1n\/oLIkpF8=",
+      "hash": "sha256-on2sQ\/\/5IT+MncHouN\/Gv141kr8Hp4tHrp7EbaiXjtI=",
       "url": "css\/app.css"
     },
     {
@@ -97,7 +97,7 @@
       "url": "icon_192.png"
     },
     {
-      "hash": "sha256-qMWJbR3ihSSSiGtnUUdAHLwGiB\/hPkangYlHxs7qDao=",
+      "hash": "sha256-saZcR\/plGAHjecDrJWaVhdhl2odlWgrAPuKIfxPpFcE=",
       "url": "index.html"
     },
     {
@@ -113,7 +113,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-YuUBP25hyWFmFEcssx+7muB6AQOk85FNiw68IbJVN58=",
+      "hash": "sha256-1biFF5asIkutwrgAr9\/asfGJZSSKIswi1uCtDLA7TAE=",
       "url": "scripts\/app.js"
     },
     {
@@ -933,11 +933,11 @@
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-ydnkwETtUH5olsh1fgzu4qrGRoNE1MekCWE\/LOcgKg4=",
+      "hash": "sha256-UtP4eA9nIIkan9nHKtIEYRxH+v87rGiS6jK35dpyoV0=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-Rlnx+x78Q3lzRTFtcyG8vN0PYfapHCN3zXH0auxYa+c=",
+      "hash": "sha256-lCVen0l9peoJQWMYbMNQUmUQmf9ZpXeG7eQMUiNPmXc=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -945,7 +945,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-dZDXLq44muDG+N8HBMVrsvV42TumqTOxMe3fQS6dcfs=",
+      "hash": "sha256-R1e1VD+pXe3d+j5Ag7fRDFyd9ET8q76uIyD1ak57SHU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -973,5 +973,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "zCsAiOoc"
+  "version": "nSatj5Nc"
 };
