@@ -16,7 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Modal/Contact/" />
-    <Folder Include="wwwroot\scripts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\STDComponents\STDComponents.csproj" />
