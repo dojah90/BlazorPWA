@@ -1,11 +1,16 @@
 
 (function () {
     var theme = localStorage.getItem('theme');
-    if (theme.includes('theme-dark')) {
-        setTheme('theme-dark');
+    if(theme){
+        if (theme.includes('theme-dark')) {
+            setTheme('theme-dark');
+        } else {
+            setTheme('theme-light');
+        }
     } else {
         setTheme('theme-light');
     }
+    
  })();
 
  /**
