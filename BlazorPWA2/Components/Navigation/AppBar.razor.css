@@ -1,5 +1,6 @@
 .appbar {
     position: fixed;
+    z-index: 1000;
     width: 100vw;
     height: calc(env(safe-area-inset-top) + 50px);
     padding-left: 1rem;

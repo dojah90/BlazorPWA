@@ -3,6 +3,7 @@
 /* /Components/Navigation/AppBar.razor.rz.scp.css */
 .appbar[b-mtgon681q4] {
     position: fixed;
+    z-index: 1000;
     width: 100vw;
     height: calc(env(safe-area-inset-top) + 50px);
     padding-left: 1rem;
@@ -21,6 +22,7 @@
 /* /Components/Navigation/NavigationBar.razor.rz.scp.css */
 .nav-bar[b-35tqwjpbr1] {
     position: fixed;
+    z-index: 1000;
     bottom: 0;
     width: 100%;
     height: calc(env(safe-area-inset-bottom) + 60px);
