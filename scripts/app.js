@@ -2,13 +2,11 @@
 (function () {
     var theme = localStorage.getItem('theme');
     if(theme){
-        if (theme.includes('theme-dark')) {
-            setTheme('theme-dark');
-        } else {
-            setTheme('theme-light');
-        }
+        theme = theme.replace(new RegExp('\"', 'g'), '');
+        var currentTheme = 'theme-' + theme;
+        document.documentElement.className = currentTheme;
     } else {
-        setTheme('theme-light');
+        document.documentElement.className = 'theme-light';
     }
     
  })();
@@ -18,7 +16,7 @@
  * @param {theme that should be used} theme 
  */
 function setTheme(theme){
-    document.documentElement.className = theme;
+    document.documentElement.className = 'theme-' + theme;
 }
 
 function fadeIn(){
