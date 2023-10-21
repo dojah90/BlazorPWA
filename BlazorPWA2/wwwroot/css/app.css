@@ -14,6 +14,20 @@
     --color-card: rgb(220, 220, 220);
 }
 
+.theme-red {
+    --text-color: black;
+    --background-color: rgb(202, 93, 43);
+    --background-card: rgb(193, 148, 65);
+    --color-card: rgb(220, 220, 220);
+}
+
+.theme-blue {
+    --text-color: black;
+    --background-color: rgb(35, 59, 111);
+    --background-card: rgb(193, 148, 65);
+    --color-card: rgb(220, 220, 220);
+}
+
 
 html {
     min-height: calc(100svh + env(safe-area-inset-top));
@@ -64,7 +78,7 @@ html {
 html,
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: var(--background-color);
     color: var(--text-color);
     overscroll-behavior-y: none;
@@ -215,7 +229,7 @@ a,
 /*---- Layout ----*/
 
 .page-body {
-    height: calc(100svh + env(safe-area-inset-top));
+    /*height: calc(100svh + env(safe-area-inset-top));*/
     padding-top: calc(env(safe-area-inset-top) + 50px);
     padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
     overflow-y: auto;

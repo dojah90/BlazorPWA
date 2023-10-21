@@ -81,8 +81,64 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-114.png",
+      "PackagePath": "staticwebassets/icon-114.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-120.png",
+      "PackagePath": "staticwebassets/icon-120.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-128.png",
+      "PackagePath": "staticwebassets/icon-128.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-144.png",
+      "PackagePath": "staticwebassets/icon-144.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-152.png",
+      "PackagePath": "staticwebassets/icon-152.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-180.png",
+      "PackagePath": "staticwebassets/icon-180.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-256.png",
+      "PackagePath": "staticwebassets/icon-256.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-384.png",
+      "PackagePath": "staticwebassets/icon-384.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-48.png",
+      "PackagePath": "staticwebassets/icon-48.png"
+    },
+    {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-512.png",
       "PackagePath": "staticwebassets/icon-512.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-57.png",
+      "PackagePath": "staticwebassets/icon-57.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-60.png",
+      "PackagePath": "staticwebassets/icon-60.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-72.png",
+      "PackagePath": "staticwebassets/icon-72.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-76.png",
+      "PackagePath": "staticwebassets/icon-76.png"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-96.png",
+      "PackagePath": "staticwebassets/icon-96.png"
     },
     {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon_192.png",
