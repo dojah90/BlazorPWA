@@ -16,8 +16,16 @@ export async function requestNotificationsPermissions(){
 }
 
 export async function saveMessagingDeviceToken(){
-    const msg = await messaging();
-    const fcmToken = await getToken(msg, { vapidKey: VAPID_KEY });
+    console.log('host: ', window.location.host);
+    console.log('hostname: ', window.location.hostname);
+    console.log('origin: ', window.location.origin);
+    
+
+    navigator.serviceWorker.register(window.location.origin + '/firebase-messaging-sw.js').then(async (registration) => {  
+        registration = await navigator.serviceWorker.ready;
+
+        const msg = await messaging();
+        const fcmToken = await getToken(msg, { vapidKey: VAPID_KEY, serviceWorkerRegistration: registration });
 
     if(fcmToken){
         console.log('FCM Token: ', fcmToken);
@@ -32,4 +40,5 @@ export async function saveMessagingDeviceToken(){
     else{
         requestNotificationsPermissions();
     }
+    });
 }
