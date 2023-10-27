@@ -5,7 +5,7 @@
       "url": ".nojekyll"
     },
     {
-      "hash": "sha256-goOJEQw3s\/UrBnvqu9b5AVq6yViOG2meZN9rCYiKhUc=",
+      "hash": "sha256-m8lPMdPljV15lM3xRIL1nGhFQgPOBmiPEybo7DSQYhQ=",
       "url": "404.html"
     },
     {
@@ -157,11 +157,11 @@
       "url": "icon_192.png"
     },
     {
-      "hash": "sha256-ZqP24HukDhlYNLtF8iCpRB6SPrmPx9\/6G1tK\/daAmoQ=",
+      "hash": "sha256-wKZyYj\/n7wT4tiyjqGc3G0ZHJjsGHy3t7gURkwpv+Ro=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-x3JVZYq6KLzYdgpOqaRlUzsaEczrRBst6gia2m0GVwo=",
+      "hash": "sha256-NIah7qt8g7St5rVHJZKak2ozu9vQfxhek+EiGkLoIms=",
       "url": "js\/index.bundle.js"
     },
     {
@@ -1041,5 +1041,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "jMBJv4cL"
+  "version": "QUFj3r02"
 };
