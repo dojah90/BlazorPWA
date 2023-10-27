@@ -2093,6 +2093,9 @@ C:/Users/Dom/Documents/BlazorPWA/BlazorPWA2/obj/Debug/net7.0/scopedcss/Component
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Loader.dll.gz
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/wwwroot/service-worker-assets.js
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/wwwroot/service-worker.js
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/NpmJS/package-lock.json
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/NpmJS/package.json
+/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/package-lock.json
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/BlazorPWA2.staticwebassets.runtime.json
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/BlazorPWA2.dll
 /Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/bin/Debug/net7.0/BlazorPWA2.pdb

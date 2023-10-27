@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/firebase-messaging-sw.js",
+      "PackagePath": "staticwebassets/firebase-messaging-sw.js"
+    },
+    {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon-114.png",
       "PackagePath": "staticwebassets/icon-114.png"
     },
@@ -175,6 +179,14 @@
     {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/js/index.bundle.js",
+      "PackagePath": "staticwebassets/js/index.bundle.js"
+    },
+    {
+      "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/js/index.bundle.js.LICENSE.txt",
+      "PackagePath": "staticwebassets/js/index.bundle.js.LICENSE.txt"
     },
     {
       "Id": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/manifest.json",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zdNuXTSIeinIUiu3pxR7dMl0nV8oTnB2oQxtpbQxl70=",
+  "Hash": "kHjjAPxHxIcFiPJLhGGSKQ9c71KvetG+TlR551wev/w=",
   "Source": "BlazorPWA2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7475,6 +7475,23 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/firebase-messaging-sw.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "firebase-messaging-sw.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/firebase-messaging-sw.js"
+    },
+    {
       "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/icon_192.png",
       "SourceId": "BlazorPWA2",
       "SourceType": "Discovered",
@@ -7881,6 +7898,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/js/index.bundle.js",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "js/index.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.bundle.js"
+    },
+    {
+      "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/js/index.bundle.js.LICENSE.txt",
+      "SourceId": "BlazorPWA2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "js/index.bundle.js.LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.bundle.js.LICENSE.txt"
     },
     {
       "Identity": "/Users/dominikjahn/Documents/Programme/BlazorPWA/BlazorPWA2/wwwroot/manifest.json",

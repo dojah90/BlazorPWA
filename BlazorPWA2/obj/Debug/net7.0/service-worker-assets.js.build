@@ -5,11 +5,11 @@
       "url": ".nojekyll"
     },
     {
-      "hash": "sha256-U2prfPO1sW\/uKVXaDBT1sxGS9R+RHAkqeDtR5jdFYfg=",
+      "hash": "sha256-goOJEQw3s\/UrBnvqu9b5AVq6yViOG2meZN9rCYiKhUc=",
       "url": "404.html"
     },
     {
-      "hash": "sha256-lH7jiKro2Hhr51E5uAmzdrMNDl+S8\/dIv+i0Z6\/qUfI=",
+      "hash": "sha256-PtVwWzItXBFuzBoNSz5dD6OiSs9DfFTTdfqpeGdaVt4=",
       "url": "css\/app.css"
     },
     {
@@ -59,6 +59,10 @@
     {
       "hash": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "url": "favicon.png"
+    },
+    {
+      "hash": "sha256-QLLyfjU+CAmH1+vbM73RPzehiV\/noZNNfWlkKIADZVU=",
+      "url": "firebase-messaging-sw.js"
     },
     {
       "hash": "sha256-jlLsgdMkGn7z\/V8EBk9Jp5K5rNZPastJW9zIlIg8s40=",
@@ -153,8 +157,16 @@
       "url": "icon_192.png"
     },
     {
-      "hash": "sha256-saZcR\/plGAHjecDrJWaVhdhl2odlWgrAPuKIfxPpFcE=",
+      "hash": "sha256-ZqP24HukDhlYNLtF8iCpRB6SPrmPx9\/6G1tK\/daAmoQ=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-x3JVZYq6KLzYdgpOqaRlUzsaEczrRBst6gia2m0GVwo=",
+      "url": "js\/index.bundle.js"
+    },
+    {
+      "hash": "sha256-l61RKcwv3DJ9Eilbh3lvHLFS04gMhMX82cZbaEeGrj8=",
+      "url": "js\/index.bundle.js.LICENSE.txt"
     },
     {
       "hash": "sha256-gAogdEpf\/QUvUn+HFHDUA608kHquhvsyDB1d0PgtCPQ=",
@@ -989,11 +1001,11 @@
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-nhK5489Ew\/TylLt\/BUrzkllnHwH3EazBsB7\/kDJ+Qf8=",
+      "hash": "sha256-CDTB2Etq175owYiJMjDqj84Z3LZ0Q45\/XFX4qercemA=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-E1WXxaakuqyir7aoqiYDgnlWn4oyEntJXs7Nzrnbcts=",
+      "hash": "sha256-RBgibzunL\/Frqk5A+sGpWDLBsGfaows+RU4M81\/qwZ0=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -1001,7 +1013,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-ZGgxlDcPcheefDZul4KxkQigtLupyH3LjevhtlwRDes=",
+      "hash": "sha256-rnwrJfMwa6pTYyw4luY0rGEM\/PxWmjTTK+ynZ1Z43uo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1029,5 +1041,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "yQR7b5ta"
+  "version": "jMBJv4cL"
 };

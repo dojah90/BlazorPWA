@@ -25,8 +25,6 @@ public partial class NavigationBar
 
     private string GetCssClass(string path)
     {
-        logger.Log(LogLevel.Information, "GetCssClass current : " + currentPath);
-        logger.Log(LogLevel.Information, "GetCssClass : " + path);
         var result = "nav-bar-icon";
 
         if(path.Equals("/home") && currentPath.Equals("/"))
@@ -42,7 +40,6 @@ public partial class NavigationBar
     }
 
     private void NavigateTo(string path){
-        logger.Log(LogLevel.Information, path);
         navigationService.NavigateTo(path);
     }
 }
