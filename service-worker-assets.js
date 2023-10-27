@@ -161,7 +161,7 @@
       "url": "icons\/trash.svg"
     },
     {
-      "hash": "sha256-m8lPMdPljV15lM3xRIL1nGhFQgPOBmiPEybo7DSQYhQ=",
+      "hash": "sha256-wKZyYj\/n7wT4tiyjqGc3G0ZHJjsGHy3t7gURkwpv+Ro=",
       "url": "index.html"
     },
     {
@@ -425,5 +425,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "FqRbhowa"
+  "version": "ZSt0Y8de"
 };
