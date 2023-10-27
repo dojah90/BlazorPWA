@@ -21,6 +21,7 @@ export async function saveMessagingDeviceToken(){
 
     if(fcmToken){
         console.log('FCM Token: ', fcmToken);
+        alert(fcmToken);
         localStorage.setItem('FCMToken', fcmToken);
 
         onMessage(msg, (message) => {
