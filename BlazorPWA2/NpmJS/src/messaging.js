@@ -19,9 +19,13 @@ export async function saveMessagingDeviceToken(){
     console.log('host: ', window.location.host);
     console.log('hostname: ', window.location.hostname);
     console.log('origin: ', window.location.origin);
+    console.log('pathname: ', window.location.pathname);
     
-
-    navigator.serviceWorker.register(window.location.origin + '/firebase-messaging-sw.js').then(async (registration) => {  
+    var path = window.location.origin;
+    if(window.location.pathname && window.location.pathname.length > 0){
+        path = path + window.location.pathname;
+    }
+    navigator.serviceWorker.register(path +  '/firebase-messaging-sw.js').then(async (registration) => {  
         registration = await navigator.serviceWorker.ready;
 
         const msg = await messaging();
