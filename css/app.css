@@ -5,6 +5,8 @@
     --background-color: white;
     --background-card: rgb(220, 220, 220);
     --color-card: rgb(31, 31, 31);
+    --selection-color: rgb(63, 63, 63);
+    --selection-background: rgb(180, 180, 180);
 }
 
 .theme-dark {
@@ -12,6 +14,8 @@
     --background-color: rgb(19, 19, 19);
     --background-card: rgb(52, 52, 52);
     --color-card: rgb(220, 220, 220);
+    --selection-color: rgb(165, 165, 165);
+    --selection-background: rgb(143, 141, 141);
 }
 
 .theme-red {
@@ -19,6 +23,8 @@
     --background-color: rgb(202, 93, 43);
     --background-card: rgb(193, 148, 65);
     --color-card: rgb(220, 220, 220);
+    --selection-color: rgb(180, 180, 180);
+    --selection-background: rgb(169, 122, 122);
 }
 
 .theme-blue {
@@ -26,6 +32,8 @@
     --background-color: rgb(35, 59, 111);
     --background-card: rgb(193, 148, 65);
     --color-card: rgb(220, 220, 220);
+    --selection-color: rgb(180, 180, 180);
+    --selection-background: rgb(30, 114, 145);
 }
 
 
@@ -49,13 +57,13 @@ html {
   }
 
   ::-moz-selection { /* Code for Firefox */
-    color: var(--text-color);
-    background: rgb(68, 68, 68);
+    color: var(--selection-color);
+    background: var(--selection-background);
   }
   
   ::selection {
-    color: var(--text-color);
-    background: rgb(68, 68, 68);
+    color: var(--selection-color);
+    background: var(--selection-background);
   }
 
 /* Anpassungen in Safari nicht möglich, nur Chrome Firefox Edge usw.
