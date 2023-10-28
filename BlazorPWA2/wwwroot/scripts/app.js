@@ -26,3 +26,13 @@ function fadeIn(){
 function fadeOut(){
     $(".page-body-content").fadeOut(200);
 }
+
+async function enableFCM(){
+    const permission = await Notification.requestPermission();
+
+    if(permission === 'granted'){
+        enablePushNotificationsByClick();
+    } else {
+        console.log('Unable to get permission to notify.');
+    }
+}

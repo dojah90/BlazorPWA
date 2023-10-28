@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-PtVwWzItXBFuzBoNSz5dD6OiSs9DfFTTdfqpeGdaVt4=",
+      "hash": "sha256-6LFTQQQIgfgIfs41cYVOb3CegnjkMve6naRZVSHGtro=",
       "url": "css\/app.css"
     },
     {
@@ -157,11 +157,11 @@
       "url": "icon_192.png"
     },
     {
-      "hash": "sha256-wKZyYj\/n7wT4tiyjqGc3G0ZHJjsGHy3t7gURkwpv+Ro=",
+      "hash": "sha256-pTKUzO4aJ0Lkfb8w\/E0\/IlFtjwYyemRg9N\/6NGV59bM=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-ugSs5fPD3GSRSCpCGz7js7XS5\/7gKOSZ5tBB5ViWzZ4=",
+      "hash": "sha256-zricgWGJ7OOXtVIGhBu3110tAP49+jSo78ZbHtqutKA=",
       "url": "js\/index.bundle.js"
     },
     {
@@ -181,7 +181,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-eb2ozD5FtWmeNUDjuAQabOu8isCWPqvvcOZlA9Kj4Wk=",
+      "hash": "sha256-zCRiPbPK55AorOz+R4HSpupLD3253vTtrYBEyQMOwE0=",
       "url": "scripts\/app.js"
     },
     {
@@ -189,7 +189,7 @@
       "url": "scripts\/jquery.js"
     },
     {
-      "hash": "sha256-avECG9KwWjQaclj0zeIXoj3G\/XQVft9K8XCq11BYpTc=",
+      "hash": "sha256-rWPD0CLIoj6p\/RNRzWACovMNPlJ20QEmKzs8E7i40Zg=",
       "url": "BlazorPWA2.styles.css"
     },
     {
@@ -1001,11 +1001,11 @@
       "url": "_framework\/STDComponents.pdb"
     },
     {
-      "hash": "sha256-g8uasZDTGE8IltYBvZYZ5j42XiclPh5K01OMUx7+CLI=",
+      "hash": "sha256-qx795Ek9KnZzG7IqNa+uiw+s6ZGkxLhyhKNlurzz26M=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
-      "hash": "sha256-9UITUQs2ZT9fPLQ4iYYWqGuhv5ztwx9loWB4Dz2kpbQ=",
+      "hash": "sha256-8viRnJYQoJ2mcEYgY8hKugMIp\/UGU+SAj7Ak4bIluFU=",
       "url": "_framework\/BlazorPWA2.pdb"
     },
     {
@@ -1013,7 +1013,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-d1fyaFBu21kPT0\/Tnb+3zltyEMhBAh8HYaXAqIrWTHs=",
+      "hash": "sha256-bNkEUgJQ33j9wuFlOlof+g0d+EqvO8Ba0AJjsZHaxM0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1041,5 +1041,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "caric9+V"
+  "version": "B6qrCWT3"
 };

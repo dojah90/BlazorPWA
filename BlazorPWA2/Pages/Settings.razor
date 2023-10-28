@@ -2,10 +2,15 @@
 @using BlazorPWA2.Model.Theme;
 
 <h1>Settings</h1>
-
+@*
 <div class="form-check form-switch">
     <input class="form-check-input" type="checkbox" role="switch" @onchange="SwitchThemes" id="theme-switcher">
     <label for="theme-switcher">Switch Theme</label>
+</div>
+*@
+<div class="d-grid grid-container-2">
+    <span>FCM Token: </span>
+    <span>@fcmToke</span>
 </div>
 
 <STDComponents.Basics.Dropdown.STDDropdown TModel="Theme" TValue="string" DisplayExpression="x => x.ToString()" ValuePropertyExpression="x => x.ToString()" Options="Enum.GetValues<Theme>()" Value="@CurrentTheme" ValueChanged="(newValue) => { CurrentTheme = newValue;}" />

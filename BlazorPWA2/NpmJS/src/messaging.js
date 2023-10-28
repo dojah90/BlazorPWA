@@ -16,19 +16,17 @@ export async function requestNotificationsPermissions(){
 }
 
 export async function saveMessagingDeviceToken(){
-    console.log('host: ', window.location.host);
-    console.log('hostname: ', window.location.hostname);
-    console.log('origin: ', window.location.origin);
-    console.log('pathname: ', window.location.pathname);
 
     const registration = await navigator.serviceWorker.ready;
     if (!'pushManager' in registration) {
-        alert('Push Notifications not supported');
+        console.log('Push Notifications not supported');
     return;
     }
     
     var path = window.location.origin;
-    if(window.location.pathname && window.location.pathname.length > 0){
+    var pathname = window.location.pathname;
+    var baseAdresses = ['news', 'chat', 'home', 'contacts', 'settings'];
+    if(pathname && pathname.length > 0 && baseAdresses.includes(pathname) == false){
         path = path + window.location.pathname;
     }
     navigator.serviceWorker.register(path +  '/firebase-messaging-sw.js').then(async (registration) => {  
@@ -39,8 +37,7 @@ export async function saveMessagingDeviceToken(){
 
     if(fcmToken){
         console.log('FCM Token: ', fcmToken);
-        alert(fcmToken);
-        localStorage.setItem('FCMToken', fcmToken);
+        localStorage.setItem("FCMToken", "\"" + fcmToken + "\"");
 
         onMessage(msg, (message) => {
             console.log('New foreground notification');

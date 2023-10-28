@@ -7,8 +7,10 @@ namespace BlazorPWA2.Pages;
 public partial class Settings
 {
     [Inject] private ISettingsService settingsService { get; set; }
+    [Inject] private ILocalStorageService localStorageService { get; set; }
 
     private string currentTheme = "light";
+    private string fcmToke = string.Empty;
 
     public string CurrentTheme{
         get => currentTheme;
@@ -24,6 +26,7 @@ public partial class Settings
     {
         await base.OnInitializedAsync();
         currentTheme = await settingsService.GetCurrentTheme();
+        fcmToke = await localStorageService.GetAsync<string>("FCMToken") ?? string.Empty;
     }
     public async void SwitchThemes()
     {

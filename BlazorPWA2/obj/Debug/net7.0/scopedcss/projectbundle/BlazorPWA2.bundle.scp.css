@@ -77,7 +77,9 @@
     display: grid;
 }
 
-
+.fcmButton[b-oi14hoxe8v]{
+    display: none;
+}
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-upoe80tiai] {
     background-color: rgba(255, 255, 255, 0.1);
