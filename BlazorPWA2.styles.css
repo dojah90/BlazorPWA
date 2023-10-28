@@ -30,15 +30,27 @@
     width: 100%;
     height: calc(env(safe-area-inset-bottom) + 60px);
     padding-bottom: env(safe-area-inset-bottom);
-    display: flex;
     background-color: rgba(44, 45, 45, .3);
     backdrop-filter: blur(.5rem);
     -webkit-backdrop-filter: blur(.5rem);
-    justify-content: space-around;
-    align-items: center;
     align-self: end;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: end;
+    align-content: center;
+}
+
+.navbar-content[b-35tqwjpbr1] {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: end;
+    align-content: center;
 }
 
 .nav-bar-icon[b-35tqwjpbr1] {
