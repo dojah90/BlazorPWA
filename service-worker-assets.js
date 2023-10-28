@@ -165,7 +165,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-U8DUF8+dO4sJrj1hEIJ4XXrLRMOK\/oObrsPUCiGX43A=",
+      "hash": "sha256-\/myM23f2KIVT9vCIArDAvQV3vpkCEntsnhn4JmntEjo=",
       "url": "js\/index.bundle.js"
     },
     {
@@ -425,5 +425,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "DuXFP0Dr"
+  "version": "VsHssi4C"
 };
