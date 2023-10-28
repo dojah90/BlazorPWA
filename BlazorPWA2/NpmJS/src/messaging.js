@@ -20,6 +20,12 @@ export async function saveMessagingDeviceToken(){
     console.log('hostname: ', window.location.hostname);
     console.log('origin: ', window.location.origin);
     console.log('pathname: ', window.location.pathname);
+
+    const registration = await navigator.serviceWorker.ready;
+    if (!'pushManager' in registration) {
+        alert('Push Notifications not supported');
+    return;
+    }
     
     var path = window.location.origin;
     if(window.location.pathname && window.location.pathname.length > 0){

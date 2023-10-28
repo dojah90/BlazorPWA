@@ -1,5 +1,6 @@
 <div class="nav-bar blur">
-    <a @onclick="@(() => NavigateTo("news"))">
+    <div class="navbar-content">
+<a @onclick="@(() => NavigateTo("news"))">
         <img class="@GetCssClass("/news")" src="icons/news.svg" />
     </a>
     <a @onclick="@(() => NavigateTo("chat"))">
@@ -14,4 +15,5 @@
     <a @onclick="@(() => NavigateTo("settings"))">
         <img class="@GetCssClass("/settings")" src="icons/settings.svg" />
     </a>
+    </div>
 </div>
