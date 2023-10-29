@@ -9,7 +9,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-2LuO3ms9tXDmD\/VH8W6HfvavCX6GPK+A940aKCueRlc=",
+      "hash": "sha256-ur7OAeBCgkSLuYwVzdC\/3sSydm\/rI\/IOp4rUTnfx+uw=",
       "url": "css\/app.css"
     },
     {
@@ -61,7 +61,7 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-MHpHFugXmYo8FAExX9iVpnaunSiZnIeQlzPgKT3kVb8=",
+      "hash": "sha256-ClkKAzJTyJkojoAYltajmtS0qSlvoqKteEiyHu0gUDM=",
       "url": "firebase-messaging-sw.js"
     },
     {
@@ -1041,5 +1041,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "ikYu4ARL"
+  "version": "ZCsGhzAY"
 };
