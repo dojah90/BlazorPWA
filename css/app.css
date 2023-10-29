@@ -245,6 +245,7 @@ a,
 
 .page-body-content {
     padding: .5rem;
+    width: 100svh;
 }
 
 .justify-content-space-between {
