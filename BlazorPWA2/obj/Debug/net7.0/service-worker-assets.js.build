@@ -61,7 +61,7 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-ClkKAzJTyJkojoAYltajmtS0qSlvoqKteEiyHu0gUDM=",
+      "hash": "sha256-RmwfFvMB5qy7WUf3J1X7upNSkuYH5SL7ASSvaXr84h8=",
       "url": "firebase-messaging-sw.js"
     },
     {
@@ -1041,5 +1041,5 @@
       "url": "_content\/Blazor.Bootstrap\/Blazor.Bootstrap.bundle.scp.css"
     }
   ],
-  "version": "Lq0oWUJ4"
+  "version": "UkiNvyOd"
 };

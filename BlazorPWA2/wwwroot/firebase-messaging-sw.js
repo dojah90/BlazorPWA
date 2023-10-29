@@ -27,8 +27,6 @@ const firebaseConfig = {
         icon: "/itwonders-web-logo.png",
     };
 
-    new Notification('This is the title', { body: 'This is the body' });
-
     return self.registration.showNotification(
         notificationTitle,
         notificationOptions,
