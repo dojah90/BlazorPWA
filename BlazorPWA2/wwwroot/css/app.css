@@ -245,7 +245,8 @@ a,
 
 .page-body-content {
     padding: .5rem;
-    width: 100svw;
+    width: 100svw !important;
+    overflow: hidden;
 }
 
 .justify-content-space-between {
@@ -284,6 +285,10 @@ input[type="date"] {
     display:-webkit-flex;
     flex: 1 0 0;
     -webkit-flex: 1 0 0;
+}
+
+span {
+    text-wrap: wrap;
 }
 
 .form-control {
