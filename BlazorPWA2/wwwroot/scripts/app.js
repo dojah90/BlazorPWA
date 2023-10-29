@@ -11,6 +11,10 @@
     
  })();
 
+ function showTestNotification(){
+    new Notification('This is the title', { body: 'This is the body' });
+ }
+
  /**
  * Sets the color theme the app should use
  * @param {theme that should be used} theme 
