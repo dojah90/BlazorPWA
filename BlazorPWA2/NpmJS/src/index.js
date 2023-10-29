@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     } else {
       saveMessagingDeviceToken();
     }    
-  }
-  
+  }  
 });
 
 if(navigator.userAgent.match(/(iPod|iPhone|iPad)/)){

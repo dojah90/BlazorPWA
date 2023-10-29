@@ -15,6 +15,24 @@ const firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
   const msgng = firebase.messaging();
 
+  messaging.setBackgroundMessageHandler(function(payload) {
+    console.log(
+        "[firebase-messaging-sw.js] Received background message ",
+        payload,
+    );
+    // Customize notification here
+    const notificationTitle = "Background Message Title";
+    const notificationOptions = {
+        body: "Background Message body.",
+        icon: "/itwonders-web-logo.png",
+    };
+
+    return self.registration.showNotification(
+        notificationTitle,
+        notificationOptions,
+    );
+});
+
 /*
 // Initialize the Firebase app in the service worker by passing in the
 // messagingSenderId.
@@ -31,20 +49,4 @@ firebase.initializeApp({
 // messages.
 const messaging = firebase.messaging();
 
-messaging.setBackgroundMessageHandler(function(payload) {
-    console.log(
-        "[firebase-messaging-sw.js] Received background message ",
-        payload,
-    );
-    // Customize notification here
-    const notificationTitle = "Background Message Title";
-    const notificationOptions = {
-        body: "Background Message body.",
-        icon: "/itwonders-web-logo.png",
-    };
-
-    return self.registration.showNotification(
-        notificationTitle,
-        notificationOptions,
-    );
-});*/
+*/
