@@ -13,7 +13,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-2LuO3ms9tXDmD\/VH8W6HfvavCX6GPK+A940aKCueRlc=",
+      "hash": "sha256-ur7OAeBCgkSLuYwVzdC\/3sSydm\/rI\/IOp4rUTnfx+uw=",
       "url": "css\/app.css"
     },
     {
@@ -65,7 +65,7 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-MHpHFugXmYo8FAExX9iVpnaunSiZnIeQlzPgKT3kVb8=",
+      "hash": "sha256-ClkKAzJTyJkojoAYltajmtS0qSlvoqKteEiyHu0gUDM=",
       "url": "firebase-messaging-sw.js"
     },
     {
@@ -225,7 +225,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-LUQEwfYCyL0GWqSgs2O2M5xlzPSsZQKmVt0V47uoL6M=",
+      "hash": "sha256-DA9Grc4\/lDgTuCQPG8Ffj9RXvD18+QfO7QFFRk2PP2Q=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -237,7 +237,7 @@
       "url": "_framework\/Blazored.Modal.dll"
     },
     {
-      "hash": "sha256-mxd2UCpHsFJk7iPTpMrQ3uTvyRCOJ2dHYM6PGxbNql8=",
+      "hash": "sha256-0NMdgB9IUL2yf+uUUXFvzhSIEKpDiwrEFyqfdKLoeRo=",
       "url": "_framework\/BlazorPWA2.dll"
     },
     {
@@ -425,5 +425,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "gVeFwepF"
+  "version": "2\/W6w4uY"
 };
