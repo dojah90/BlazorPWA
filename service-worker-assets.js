@@ -65,7 +65,7 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-ClkKAzJTyJkojoAYltajmtS0qSlvoqKteEiyHu0gUDM=",
+      "hash": "sha256-RmwfFvMB5qy7WUf3J1X7upNSkuYH5SL7ASSvaXr84h8=",
       "url": "firebase-messaging-sw.js"
     },
     {
@@ -425,5 +425,5 @@
       "url": "_content\/Blazored.Modal\/BlazoredModal.razor.js"
     }
   ],
-  "version": "DY+6e4sL"
+  "version": "v+KS7h7B"
 };
