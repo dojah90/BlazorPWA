@@ -334,6 +334,10 @@ input[type="date"] {
     padding: .3rem;
 }
 
+.grid-container-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
 .grid-container-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
