@@ -12,7 +12,10 @@
  })();
 
  function showTestNotification(){
-    new Notification('This is the title', { body: 'This is the body' });
+    //var noti = new Notification('This is the title', { body: 'This is the body' });
+    navigator.serviceWorker.getRegistrations().then(function(registrations){
+        registrations[0].showNotification('Test Title', { body: 'Body Test'});
+    });
  }
 
  /**

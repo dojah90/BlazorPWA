@@ -41,7 +41,8 @@ export async function saveMessagingDeviceToken(){
 
         onMessage(msg, (message) => {
             console.log('New foreground notification');
-            new Notification(message.notification.title, { body: message.notification.body });
+            registration.showNotification(message.notification.title, { body: message.notification.body });
+            //new Notification(message.notification.title, { body: message.notification.body });
         })
     }
     else{
