@@ -35,32 +35,30 @@ export async function saveMessagingDeviceToken() {
         registration = await navigator.serviceWorker.ready;
 
         console.log('Try get FCM Token ...');
-        const fcmToken = '';
         const msg = await messaging();
         
         if(msg){
             console.log('Firebase messaging initialized, try get Firebase FCM Token ...');
-            fcmToken = await getToken(msg, { vapidKey: VAPID_KEY, serviceWorkerRegistration: registration });
-            console.log(fcmToken);
+            const fcmToken = await getToken(msg, { vapidKey: VAPID_KEY, serviceWorkerRegistration: registration });
+
+            if(fcmToken){
+                console.log('FCM Token: ', fcmToken);
+                localStorage.setItem("FCMToken", "\"" + fcmToken + "\"");
+    
+                onMessage(msg, (message) => {
+                    console.log('New foreground notification');
+                    registration.showNotification(message.notification.title, { body: message.notification.body });
+                    //new Notification(message.notification.title, { body: message.notification.body });
+                });
+            }
+            else{
+                console.log('Request notifications permissions ...');
+                requestNotificationsPermissions();
+            }
         }
         else{
             console.log('Could not initialize Firebase Messaging : log');
             console.error('Could not initialize Firebase Messaging');
-        }
-
-        if(fcmToken){
-            console.log('FCM Token: ', fcmToken);
-            localStorage.setItem("FCMToken", "\"" + fcmToken + "\"");
-
-            onMessage(msg, (message) => {
-                console.log('New foreground notification');
-                registration.showNotification(message.notification.title, { body: message.notification.body });
-                //new Notification(message.notification.title, { body: message.notification.body });
-            });
-        }
-        else{
-            console.log('Request notifications permissions ...');
-            requestNotificationsPermissions();
         }
     });
 }
