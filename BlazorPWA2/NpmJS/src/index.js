@@ -45,7 +45,8 @@ function waitForElm(selector) {
 
 
 export async function enablePushNotificationsByClick(){
-  saveMessagingDeviceToken();
+  console.log('Try enable Firebase Messaging');
+  await saveMessagingDeviceToken();
   let elm = await waitForElm('.fcmButton');
   elm.style.display = "none";
 }

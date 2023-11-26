@@ -13,22 +13,27 @@ const firebaseConfig = {
   };
 
   firebase.initializeApp(firebaseConfig);
-  const msgng = firebase.messaging();
+  const messaging = firebase.messaging();
 
-  messaging.setBackgroundMessageHandler(function(payload) {
-    console.log(
-        "[firebase-messaging-sw.js] Received background message ",
-        payload,
-    );
-    // Customize notification here
-    const notificationTitle = "Background Message Title";
-    const notificationOptions = {
-        body: "Background Message body.",
-        icon: "/itwonders-web-logo.png",
-    };
-
-    return self.registration.showNotification(
-        notificationTitle,
-        notificationOptions,
-    );
-});
+  if(messaging){
+    messaging.setBackgroundMessageHandler(function(payload) {
+        console.log(
+            "[firebase-messaging-sw.js] Received background message ",
+            payload,
+        );
+        // Customize notification here
+        const notificationTitle = "Background Message Title";
+        const notificationOptions = {
+            body: "Background Message body.",
+            icon: "/itwonders-web-logo.png",
+        };
+    
+        return self.registration.showNotification(
+            notificationTitle,
+            notificationOptions,
+        );
+    });
+  }
+  else {
+    console.error('firebase-messaging-sw: Could not initialize Firebase messaging');
+  }

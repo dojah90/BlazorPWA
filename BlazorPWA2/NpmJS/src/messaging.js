@@ -15,13 +15,12 @@ export async function requestNotificationsPermissions(){
     }
 }
 
-export async function saveMessagingDeviceToken(){
+export async function saveMessagingDeviceToken() {
 
     const registration = await navigator.serviceWorker.ready;
 
     if (!'pushManager' in registration) {
         console.log('Push Notifications not supported');
-        return;
     }
     
     var path = window.location.origin;
@@ -55,7 +54,7 @@ export async function saveMessagingDeviceToken(){
                 console.log('New foreground notification');
                 registration.showNotification(message.notification.title, { body: message.notification.body });
                 //new Notification(message.notification.title, { body: message.notification.body });
-            })
+            });
         }
         else{
             console.log('Request notifications permissions ...');
