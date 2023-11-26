@@ -41,8 +41,10 @@ export async function saveMessagingDeviceToken() {
         if(msg){
             console.log('Firebase messaging initialized, try get Firebase FCM Token ...');
             fcmToken = await getToken(msg, { vapidKey: VAPID_KEY, serviceWorkerRegistration: registration });
+            console.log(fcmToken);
         }
         else{
+            console.log('Could not initialize Firebase Messaging : log');
             console.error('Could not initialize Firebase Messaging');
         }
 
