@@ -12,10 +12,16 @@ const firebaseConfig = {
     appId: "1:885380981579:web:01ae45c2d51956ecb97ece"
   };
 
+  console.log('firebase-messaging-sw: initialize app ...');
+
   firebase.initializeApp(firebaseConfig);
+
+  console.log('firebase-messaging-sw: try get messaging ...');
+
   const messaging = firebase.messaging();
 
   if(messaging){
+    console.log('firebase-messaging-sw: messaging set background message handler ...');
     messaging.setBackgroundMessageHandler(function(payload) {
         console.log(
             "[firebase-messaging-sw.js] Received background message ",
